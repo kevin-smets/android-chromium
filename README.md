@@ -77,7 +77,7 @@ I have checked in the Intellij `.iml` files, so you can just import the project 
 ## Artifacts: Assets & Libraries
 The main Chromium artifact is a native shared library `.so`.  It also depends on a number of `.pak` files in the `/assets` folder (you'll find these in the `content-shell` and `testshell` apps).  As built, these need to be included in your `/libs` and `/assets` folder of your project, and they *will* add a good 30-40MB of binary goodness to the size of your app.  However, if you're savvy, you could figure out a way to load those from a central location on the platform, so they don't have to be included in `.apk` file.  This will require code modifications.
 
-This project contains a snapshot in time binary build of Chromium for Android -- the specific version that was built is captured in the [VERSION file](http://example.com).   Instructions below if you want to update Chromium.
+This project contains a snapshot in time binary build of Chromium for Android -- the specific version that was built is captured in the [VERSION file](https://github.com/davisford/android-chromium/blob/master/chromium/VERSION).   Instructions below if you want to update Chromium.
 
 The rest of the projects include java source and Android assets that were authored by Google to get Chromium to show up in a standard Android view and interact with it.
 
@@ -92,7 +92,7 @@ Nearly all of the source in here is copied from the Chromium project and thus su
 
 ## What Version of Chromium Is It?
 
-Inspect the [VERSION file](http://example.com) for details on last commit logs
+Inspect the [VERSION file](https://github.com/davisford/android-chromium/blob/master/chromium/VERSION) for details on last commit logs
 
 # Pre-requisites for Building Chromium
 @pwnall has some [nice instructions](https://github.com/pwnall/chromeview/blob/master/crbuild/vm-build.md) for how to setup a Chromium build machine on a VM.  I have made a [couple of tweaks to it on my own fork](https://github.com/davisford/chromeview/blob/master/crbuild/vm-build.md) -- namely stick with Ubuntu 12.04 for the least amount of headache.
