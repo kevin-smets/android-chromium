@@ -4,22 +4,21 @@ Build Chromium `Content Shell` or `Test Shell` for Android.
 
 
 # Table Of Contents
-* [Introduction](https://github.com/davisford/android-chromium-view#introduction)
-* [The Why](https://github.com/davisford/android-chromium-view#why)
-* [Difference Between This & ChromeView](https://github.com/davisford/android-chromium-view#what-is-the-difference-between-this--chromeview)
-* [What Do I Do With This](https://github.com/davisford/android-chromium-view#what-do-i-do-with-this)
-* [Artifacts: Assets & Libraries](https://github.com/davisford/android-chromium-view#artifacts-assets--libraries)
-* [Gradle Support](https://github.com/davisford/android-chromium-view#gradle-support)
-* [Updating Chromium](https://github.com/davisford/android-chromium-view#updating-chromium)
-* [License](https://github.com/davisford/android-chromium-view#license)
-* [What Version Of Chromium Is It?](https://github.com/davisford/android-chromium-view#what-version-of-chromium-is-it)
-* [Pre-requisites For Building Chromium](https://github.com/davisford/android-chromium-view#pre-requisites-for-building-chromium)
-* [Debugging](https://github.com/davisford/android-chromium-view#debugging)
-  * [Java](https://github.com/davisford/android-chromium-view#java)
-  * [Remote Chrome DevTools](https://github.com/davisford/android-chromium-view#remote-chrome-devtools)
-  * [GDB](https://github.com/davisford/android-chromium-view#gdb)
-* [Pull Requests](https://github.com/davisford/android-chromium-view#pull-requests)
-* [Invaluable Resources](https://github.com/davisford/android-chromium-view#invaluable-resources)
+* [Introduction](https://github.com/davisford/android-chromium#introduction)
+* [The Why](https://github.com/davisford/android-chromium#why)
+* [Difference Between This & ChromeView](https://github.com/davisford/android-chromium#what-is-the-difference-between-this--chromeview)
+* [What Do I Do With This](https://github.com/davisford/android-chromium#what-do-i-do-with-this)
+* [Artifacts: Assets & Libraries](https://github.com/davisford/android-chromium#artifacts-assets--libraries)
+* [Updating Chromium](https://github.com/davisford/android-chromium#updating-chromium)
+* [License](https://github.com/davisford/android-chromium#license)
+* [What Version Of Chromium Is It?](https://github.com/davisford/android-chromium#what-version-of-chromium-is-it)
+* [Pre-requisites For Building Chromium](https://github.com/davisford/android-chromium#pre-requisites-for-building-chromium)
+* [Debugging](https://github.com/davisford/android-chromium#debugging)
+  * [Java](https://github.com/davisford/android-chromium#java)
+  * [Remote Chrome DevTools](https://github.com/davisford/android-chromium#remote-chrome-devtools)
+  * [GDB](https://github.com/davisford/android-chromium#gdb)
+* [Pull Requests](https://github.com/davisford/android-chromium#pull-requests)
+* [Invaluable Resources](https://github.com/davisford/android-chromium#invaluable-resources)
 
 # Introduction
 
