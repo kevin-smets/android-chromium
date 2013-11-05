@@ -1,0 +1,8 @@
+
+// eyesfree/build.gradle
+
+// this is an android library that implements the com.googlecode.eyesfree.braille APIs
+
+dependencies {
+
+}

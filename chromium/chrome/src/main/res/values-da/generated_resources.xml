@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Annuller"</string>
+<string name="http_post_warning">"Siden, du søger, benyttede oplysninger, du har indtastet. Vender du tilbage til denne side kan det betyde, at enhver handling, du har foretaget, skal gentages. Vil du fortsætte?"</string>
+<string name="http_post_warning_resend">"Fortsæt"</string>
+<string name="firstrun_signed_in_title">"Du er nu logget ind på Chrome."</string>
+<string name="firstrun_signed_in_description">"Åbne faner, bogmærker, historik m.m. er ved at blive synkroniseret med din Google-konto."</string>
+<string name="sad_tab_title">"Øv, surt!"</string>
+<string name="sad_tab_message">"Der gik noget galt under visningen af denne webside. Genindlæs eller gå til en anden side for at fortsætte."</string>
+<string name="sad_tab_help_message">"Hvis du ser dette jævnligt, kan du prøve $1."</string>
+<string name="sad_tab_help_link">"forslag"</string>
+<string name="sad_tab_reload_label">"Genindlæs"</string>
+</resources>

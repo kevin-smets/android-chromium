@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="leave_this_page">"צא מדף זה"</string>
+<string name="stay_on_this_page">"הישאר בדף זה"</string>
+<string name="reload_this_page">"טען מחדש דף זה"</string>
+<string name="dont_reload_this_page">"אל תטען מחדש"</string>
+<string name="js_modal_dialog_confirm">"אישור"</string>
+<string name="js_modal_dialog_cancel">"ביטול"</string>
+<string name="suppress_js_modal_dialogs">"מנע מהדף זה ליצור תיבות דו-שיח נוספות"</string>
+<string name="accessibility_js_modal_dialog_prompt">"בקשה"</string>
+<string name="certtitle">"מציג האישורים"</string>
+<string name="sync_error_generic">"שגיאת סנכרון"</string>
+<string name="sync_error_ga">"עדכן את פרטי הכניסה שלך."</string>
+<string name="sync_error_connection">"לא ניתן היה להתחבר אל שרת הסנכרון."</string>
+<string name="sync_error_domain">"הסנכרון אינו זמין בדומיין שלך."</string>
+<string name="sync_error_service_unavailable">"השירות אינו זמין. נסה שוב מאוחר יותר."</string>
+<string name="policy_dialog_title">"אשר את הכניסה"</string>
+<string name="policy_dialog_message">"‏החשבון הזה מנוהל על ידי %1$s.
+
+אתה נכנס לחשבון מנוהל, ונותן למנהל המערכת שליטה על פרופיל Chrome שלך. נתוני Chrome שלך ייקשרו באופן קבוע לחשבון הזה. התנתקות מהחשבון הזה תמחק את נתוני Chrome המקומיים."</string>
+<string name="policy_dialog_proceed">"קבל והיכנס"</string>
+<string name="policy_dialog_cancel">"ביטול"</string>
+<string name="wiping_profile_data_title">"מנקה נתוני חשבון"</string>
+<string name="wiping_profile_data_message">"המתן בבקשה..."</string>
+<string name="infobar_close">"סגור"</string>
+<string name="translate_infobar_text">"This page is in ^1. Translate it to ^2?"</string>
+<string name="translate_infobar_change_languages">"Change languages"</string>
+<string name="translate_infobar_translation_done">"Translated to %1$s."</string>
+<string name="translate_infobar_translation_more_options">"More"</string>
+<string name="translate_infobar_translating">"Translating page to %1$s..."</string>
+<string name="translate_infobar_error">"Oops. This page could not be translated."</string>
+<string name="translate_always_text">"Always translate %1$s"</string>
+<string name="translate_never_translate_message_text">"Would you like Google Chrome to offer to translate %1$s pages from this site next time?"</string>
+<string name="translate_button">"Translate"</string>
+<string name="translate_nope">"Nope"</string>
+<string name="translate_show_original">"Show original"</string>
+<string name="translate_retry">"Try again"</string>
+<string name="translate_options_source_hint">"Page Language: ^1"</string>
+<string name="translate_options_target_hint">"Translation Language: ^1"</string>
+<string name="translate_button_done">"Done"</string>
+<string name="translate_never_translate_site">"Never translate this site"</string>
+<string name="translate_never_translate_language">"Never translate %1$s"</string>
+</resources>

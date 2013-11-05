@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Zrušit"</string>
+<string name="http_post_warning">"Stránka, kterou hledáte, používala vámi zadané informace. Návrat na tuto stránku by mohl způsobit, že akce, kterou jste provedli, bude opakována. Přejete si pokračovat?"</string>
+<string name="http_post_warning_resend">"Pokračovat"</string>
+<string name="firstrun_signed_in_title">"Nyní jste v Chromu přihlášeni."</string>
+<string name="firstrun_signed_in_description">"Otevřené karty, záložky, historie a další údaje se synchronizují s vaším účtem Google."</string>
+<string name="sad_tab_title">"Aj, chyba!"</string>
+<string name="sad_tab_message">"Při zobrazování této webové stránky došlo k chybě. Chcete-li pokračovat, načtěte stránku znovu, nebo přejděte na jinou stránku."</string>
+<string name="sad_tab_help_message">"Pokud se vám tato stránka zobrazuje často, zkuste využít tyto $1."</string>
+<string name="sad_tab_help_link">"návrhy"</string>
+<string name="sad_tab_reload_label">"Načíst znovu"</string>
+</resources>

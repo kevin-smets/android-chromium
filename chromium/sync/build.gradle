@@ -1,0 +1,9 @@
+
+// sync/build.gradle
+
+// this is an android library that implements the org.chromium.sync APIs
+
+dependencies {
+  compile project(':chromium:cacheinvalidation')
+  compile project(':chromium:net')
+}

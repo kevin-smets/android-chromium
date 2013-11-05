@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="leave_this_page">"Iwanan ang Pahinang ito"</string>
+<string name="stay_on_this_page">"Manatili sa Pahinang ito"</string>
+<string name="reload_this_page">"I-reload ang Pahinang Ito"</string>
+<string name="dont_reload_this_page">"Huwag i-reload"</string>
+<string name="js_modal_dialog_confirm">"OK"</string>
+<string name="js_modal_dialog_cancel">"Kanselahin"</string>
+<string name="suppress_js_modal_dialogs">"Pigilan ang pahinang ito sa paggawa ng mga karagdagang dialog"</string>
+<string name="accessibility_js_modal_dialog_prompt">"I-prompt"</string>
+<string name="certtitle">"Viewer ng Certificate"</string>
+<string name="sync_error_generic">"Error sa pag-sync"</string>
+<string name="sync_error_ga">"Paki-update ang iyong mga detalye sa pag-sign in."</string>
+<string name="sync_error_connection">"Hindi makakonekta sa server ng pag-sync."</string>
+<string name="sync_error_domain">"Hindi available ang pag-sync para sa iyong domain."</string>
+<string name="sync_error_service_unavailable">"Hindi available ang serbisyo; subukang muli sa ibang pagkakataon."</string>
+<string name="policy_dialog_title">"Kumpirmahin ang pag-sign in"</string>
+<string name="policy_dialog_message">"Pinamamahalaan ang account na ito ng %1$s.
+
+Nagsa-sign in ka sa isang pinamamahalaang account at nagbibigay sa administrator nito ng kontrol sa iyong profile sa Chrome. Permanenteng mauugnay ang iyong data ng Chrome sa account na ito. Ang pagdiskonekta mula sa account na ito ay magtatanggal sa lokal na data ng Chrome."</string>
+<string name="policy_dialog_proceed">"I-accept, mag-sign in"</string>
+<string name="policy_dialog_cancel">"Kanselahin"</string>
+<string name="wiping_profile_data_title">"Kini-clear ang data ng account"</string>
+<string name="wiping_profile_data_message">"Mangyaring maghintay..."</string>
+<string name="infobar_close">"Isara"</string>
+<string name="translate_infobar_text">"This page is in ^1. Translate it to ^2?"</string>
+<string name="translate_infobar_change_languages">"Change languages"</string>
+<string name="translate_infobar_translation_done">"Translated to %1$s."</string>
+<string name="translate_infobar_translation_more_options">"More"</string>
+<string name="translate_infobar_translating">"Translating page to %1$s..."</string>
+<string name="translate_infobar_error">"Oops. This page could not be translated."</string>
+<string name="translate_always_text">"Always translate %1$s"</string>
+<string name="translate_never_translate_message_text">"Would you like Google Chrome to offer to translate %1$s pages from this site next time?"</string>
+<string name="translate_button">"Translate"</string>
+<string name="translate_nope">"Nope"</string>
+<string name="translate_show_original">"Show original"</string>
+<string name="translate_retry">"Try again"</string>
+<string name="translate_options_source_hint">"Page Language: ^1"</string>
+<string name="translate_options_target_hint">"Translation Language: ^1"</string>
+<string name="translate_button_done">"Done"</string>
+<string name="translate_never_translate_site">"Never translate this site"</string>
+<string name="translate_never_translate_language">"Never translate %1$s"</string>
+</resources>

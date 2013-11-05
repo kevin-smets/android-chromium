@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Cancelar"</string>
+<string name="http_post_warning">"A página que você está procurando usou as informações inseridas. Voltar à essa página poderá fazer com que todas as ações realizadas antes sejam repetidas. Deseja continuar?"</string>
+<string name="http_post_warning_resend">"Continuar"</string>
+<string name="firstrun_signed_in_title">"Você fez login no Chrome."</string>
+<string name="firstrun_signed_in_description">"Guias abertas, favoritos, histórico e outros itens estão sendo sincronizados com sua Conta do Google."</string>
+<string name="sad_tab_title">"Ah, não!"</string>
+<string name="sad_tab_message">"Ocorreu um erro durante a exibição desta página. Para continuar, atualize ou vá para outra página."</string>
+<string name="sad_tab_help_message">"Caso veja esta página com frequência, tente $1."</string>
+<string name="sad_tab_help_link">"sugestões"</string>
+<string name="sad_tab_reload_label">"Recarregar"</string>
+</resources>

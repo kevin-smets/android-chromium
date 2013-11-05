@@ -1,0 +1,91 @@
+
+// pull in dependency versions
+apply from: "dependencies.gradle"
+
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath "com.android.tools.build:gradle:0.6+"
+  }
+}
+
+allprojects {
+  // repos for sub-projects
+  repositories {
+    // local checked in maven repo has chromium 3rd party jars copied from chromium source tree
+    // there is a bug in android-gradle which prevents serving these as file or flatDir deps
+    maven { url "${rootProject.projectDir}/chromium/.m2" }
+    mavenCentral()
+    // sonatype central
+    maven { url "http://oss.sonatype.org/content/repositories/snapshots/" }
+  }
+}
+
+// common boilerplate configuration shared among library and apk
+def configureAndroidProject(project) {
+  configure(project) {
+    dependencies {
+      compile deps.androidSupport
+    }
+
+    // configure android gradle plugin
+    android {
+      compileSdkVersion androidVersions.compileSdkVersion
+      buildToolsVersion androidVersions.buildToolsVersion
+
+      defaultConfig {
+        minSdkVersion androidVersions.minSdkVersion
+        targetSdkVersion androidVersions.targetSdkVersion
+      }
+    }
+  }
+}
+
+// configure android library projects
+configure(subprojects.findAll { project ->
+    ['base',
+     'cacheinvalidation',
+     'chrome',
+     'components',
+     'content',
+     'eyesfree',
+     'media',
+     'net',
+     'protobuf',
+     'sync',
+     'ui'].contains(project.name)
+  }) {
+  apply plugin: 'android-library'
+  // the rest is boilerplate
+  configureAndroidProject it
+}
+
+// configure android apk projects
+configure(subprojects.findAll { project ->
+  ['content-shell',
+   'testshell'].contains(project.name) }) {
+  apply plugin: 'android'
+  // the rest is boilerplate
+  configureAndroidProject it
+
+  /*
+    android-gradle plugin still lacks NDK support, so this is a workaround
+    @see https://groups.google.com/forum/?fromgroups#!searchin/adt-dev/so/adt-dev/nQobKd2Gl_8/Z5yWAvCh4h4J
+   */
+  task copyNativeLibsToJar(type: Zip, description: 'create a jar that includes native shared objects') {
+    destinationDir file("${buildDir}/native/")
+    baseName 'chromium'
+    extension 'jar'
+    from fileTree(dir: 'libs', include: '**/*.so')
+    into 'lib/'
+  }
+
+  /**
+   * Clean up native libs jars
+   */
+  task cleanNativeLibs(type: Delete, description: 'delete native lib jars') {
+    delete "${buildDir}/native/"
+  }
+}

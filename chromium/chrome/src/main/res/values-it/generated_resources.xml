@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Annulla"</string>
+<string name="http_post_warning">"La pagina a cui stai tentando di accedere utilizzava informazioni inserite da te. Tornando a quella pagina, è possibile che eventuali azioni che hai eseguito vengano ripetute. Continuare?"</string>
+<string name="http_post_warning_resend">"Continua"</string>
+<string name="firstrun_signed_in_title">"Hai eseguito l\'accesso a Chrome."</string>
+<string name="firstrun_signed_in_description">"Le schede aperte, i Preferiti, la cronologia e altri dati sono in fase di sincronizzazione con il tuo account Google."</string>
+<string name="sad_tab_title">"Uffa!"</string>
+<string name="sad_tab_message">"Si è verificato un problema durante la visualizzazione della pagina web. Per continuare, ricaricala o apri un\'altra pagina."</string>
+<string name="sad_tab_help_message">"Se questo problema si verifica spesso, prova questi $1."</string>
+<string name="sad_tab_help_link">"suggerimenti"</string>
+<string name="sad_tab_reload_label">"Ricarica"</string>
+</resources>

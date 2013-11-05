@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Batal"</string>
+<string name="http_post_warning">"Laman yang dicari menggunakan informasi yang Anda masukkan. Kembali ke laman tersebut dapat menyebabkan pengulangan tindakan apapun yang Anda lakukan. Apakah Anda ingin melanjutkan?"</string>
+<string name="http_post_warning_resend">"Lanjut"</string>
+<string name="firstrun_signed_in_title">"Sekarang Anda sudah masuk ke Chrome."</string>
+<string name="firstrun_signed_in_description">"Tab yang dibuka, bookmark, riwayat, dan lainnya sedang disinkronkan dengan Akun Google Anda."</string>
+<string name="sad_tab_title">"Yah!"</string>
+<string name="sad_tab_message">"Terjadi masalah saat menampilkan laman web ini. Untuk melanjutkan, muat ulang atau buka laman yang lain."</string>
+<string name="sad_tab_help_message">"Jika Anda sering melihatnya, coba $1."</string>
+<string name="sad_tab_help_link">"saran"</string>
+<string name="sad_tab_reload_label">"Muat ulang"</string>
+</resources>

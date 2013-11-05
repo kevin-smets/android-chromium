@@ -1,0 +1,8 @@
+
+// net/build.gradle
+
+// this is an android library that implements the org.chromium.net APIs
+
+dependencies {
+  compile project(':chromium:base')
+}

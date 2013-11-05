@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Скасувати"</string>
+<string name="http_post_warning">"Сторінка, яку ви шукаєте, використовувала інформацію, введену вами. Повернення до такої сторінки може призвести до повторення ваших попередніх дій. Ви дійсно бажаєте продовжити?"</string>
+<string name="http_post_warning_resend">"Продовжити"</string>
+<string name="firstrun_signed_in_title">"Тепер ви ввійшли в Chrome."</string>
+<string name="firstrun_signed_in_description">"Відкриті вкладки, закладки, історія тощо синхронізуються з вашим обліковим записом Google."</string>
+<string name="sad_tab_title">"От халепа!"</string>
+<string name="sad_tab_message">"Під час відображення цієї веб-сторінки сталася помилка. Щоб продовжити, перезавантажте цю сторінку чи перейдіть на іншу."</string>
+<string name="sad_tab_help_message">"Якщо ви бачите це часто, спробуйте $1."</string>
+<string name="sad_tab_help_link">"пропозиції"</string>
+<string name="sad_tab_reload_label">"Перезавантажити"</string>
+</resources>

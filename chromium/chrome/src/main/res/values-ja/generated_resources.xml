@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"キャンセル"</string>
+<string name="http_post_warning">"検索しているページは、入力した情報を使用しています。このページに戻った場合、操作のやり直しが発生する可能性があります。続行しますか？"</string>
+<string name="http_post_warning_resend">"続行"</string>
+<string name="firstrun_signed_in_title">"Chrome にログインしています。"</string>
+<string name="firstrun_signed_in_description">"開いているタブ、ブックマーク、履歴、その他の設定を Google アカウントに同期しています。"</string>
+<string name="sad_tab_title">"エラー"</string>
+<string name="sad_tab_message">"このウェブページの表示中に問題が発生しました。続行するには、ページを再読み込みするか別のページに移動してください。"</string>
+<string name="sad_tab_help_message">"このエラーが頻繁に表示される場合は、こちらの$1をお試しください。"</string>
+<string name="sad_tab_help_link">"ヒント"</string>
+<string name="sad_tab_reload_label">"再読み込み"</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Mégse"</string>
+<string name="http_post_warning">"A keresett oldal a megadott információt használta. Ha visszatér arra az oldalra, akkor lehet, hogy az egyszer már megtett mozdulatok ismétlésre kerülnek. Mégis továbblép?"</string>
+<string name="http_post_warning_resend">"Folytatás"</string>
+<string name="firstrun_signed_in_title">"Bejelentkezett a Chrome-ba."</string>
+<string name="firstrun_signed_in_description">"Folyamatban van a megnyitott lapok, a könyvjelzők, az előzmények és egyebek szinkronizálása a Google-fiókjával."</string>
+<string name="sad_tab_title">"A manóba!"</string>
+<string name="sad_tab_message">"Valamiért nem sikerült megjeleníteni ezt a weboldalt. A folytatáshoz töltse be újra, vagy keressen fel egy másik oldalt."</string>
+<string name="sad_tab_help_message">"Ha gyakran látja ezt, próbálja ki a következőt: $1."</string>
+<string name="sad_tab_help_link">"javaslatok"</string>
+<string name="sad_tab_reload_label">"Újratöltés"</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Anuluj"</string>
+<string name="http_post_warning">"Strona, na której wyszukiwane są wprowadzone przez Ciebie informacje. Powrót do tej strony może spowodować konieczność powtórzenia wykonanych czynności. Czy chcesz kontynuować?"</string>
+<string name="http_post_warning_resend">"Kontynuuj"</string>
+<string name="firstrun_signed_in_title">"Jesteś zalogowany w Chrome."</string>
+<string name="firstrun_signed_in_description">"Z Twoim kontem Google są teraz synchronizowane otwarte karty, zakładki, historia i inne ustawienia."</string>
+<string name="sad_tab_title">"Niedobrze!"</string>
+<string name="sad_tab_message">"Podczas wyświetlania strony internetowej wystąpił problem. Aby kontynuować, załaduj stronę ponownie lub przejdź do innej strony."</string>
+<string name="sad_tab_help_message">"Jeśli często widzisz ten komunikat, przeczytaj $1."</string>
+<string name="sad_tab_help_link">"sugestie"</string>
+<string name="sad_tab_reload_label">"Odśwież"</string>
+</resources>

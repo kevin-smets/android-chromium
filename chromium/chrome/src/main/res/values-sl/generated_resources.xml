@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Prekliči"</string>
+<string name="http_post_warning">"Stran, ki jo iščete, je uporabila informacije, ki ste jih vnesli. Z vrnitvijo na to stran se bodo morda ponovila vsa vaša dejanja, ki ste jih opravili. Ali želite nadaljevati?"</string>
+<string name="http_post_warning_resend">"Nadaljuj"</string>
+<string name="firstrun_signed_in_title">"Zdaj ste prijavljeni v Chrome."</string>
+<string name="firstrun_signed_in_description">"Odprti zavihki, zaznamki, zgodovina in drugi podatki se sinhronizirajo z Google Računom."</string>
+<string name="sad_tab_title">"Ti šment!"</string>
+<string name="sad_tab_message">"Napaka pri prikazu te spletne strani. Če želite nadaljevati, jo znova  naložite ali pa pojdite na drugo stran."</string>
+<string name="sad_tab_help_message">"Če se to pogosto pokaže, poskusite $1."</string>
+<string name="sad_tab_help_link">"predlogi"</string>
+<string name="sad_tab_reload_label">"Ponovno naloži"</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Kanselahin"</string>
+<string name="http_post_warning">"Ang pahina na hinahanap mo para sa paggamit ng impormasyon na ipinasok mo. Ang pagbalik sa pahinang iyon maaaring magsanhi ng anumang aksyon na akalo mo ay naulit. Nais mo bang ipagpatuloy?"</string>
+<string name="http_post_warning_resend">"Magpatuloy"</string>
+<string name="firstrun_signed_in_title">"Naka-sign in ka na ngayon sa Chrome."</string>
+<string name="firstrun_signed_in_description">"Sini-sync sa iyong Google Account ang iyong mga nakabukas na tab, bookmark, kasaysayan, at higit pa."</string>
+<string name="sad_tab_title">"Ay, Naku!"</string>
+<string name="sad_tab_message">"Nagkaproblema habang ipinapakita ang webpage na ito. Upang magpatuloy, i-reload o pumunta sa ibang pahina."</string>
+<string name="sad_tab_help_message">"Kung madalas mo itong nakikita, subukan ang mga ito $1."</string>
+<string name="sad_tab_help_link">"mga suhestiyon"</string>
+<string name="sad_tab_reload_label">"Muling kargahan"</string>
+</resources>

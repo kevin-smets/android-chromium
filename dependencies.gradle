@@ -1,0 +1,17 @@
+
+// 3rd party dependency versions
+ext.deps = [
+  android: "com.google.android:android:4.1.1.4",
+  androidSupport: "com.android.support:support-v4:18.0.+"
+]
+
+// pin android plugin to specific versions
+ext.androidVersions = [
+  // chromium will not compile with less than 18 now
+  compileSdkVersion: 18,
+  buildToolsVersion: "18.0.1",
+  // chromium won't run on less than Android 4.x => SDK 14
+  minSdkVersion: 14,
+  targetSdkVersion: 18
+]
+

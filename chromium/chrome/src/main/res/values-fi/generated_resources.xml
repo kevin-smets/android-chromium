@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Peruuta"</string>
+<string name="http_post_warning">"Etsimäsi sivu käytti antamiasi tietoja. Sivulle palaaminen voi johtaa jokaisen tekemäsi toiminnon toistamiseen. Haluatko jatkaa?"</string>
+<string name="http_post_warning_resend">"Jatka"</string>
+<string name="firstrun_signed_in_title">"Olet nyt kirjautunut Chromeen."</string>
+<string name="firstrun_signed_in_description">"Avoimet välilehdet, kirjanmerkit, historia ja muita tietoja synkronoidaan Google-tiliisi."</string>
+<string name="sad_tab_title">"Voi räkä!"</string>
+<string name="sad_tab_message">"Jokin meni vikaan tätä sivua ladattaessa. Päivitä sivu tai siirry toiselle sivulle."</string>
+<string name="sad_tab_help_message">"Jos näet tämän usein, kokeile näitä $1."</string>
+<string name="sad_tab_help_link">"ehdotuksia"</string>
+<string name="sad_tab_reload_label">"Lataa uudelleen"</string>
+</resources>

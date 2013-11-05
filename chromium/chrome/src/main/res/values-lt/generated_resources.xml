@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Atšaukti"</string>
+<string name="http_post_warning">"Jūsų ieškomas puslapis ieškojo informacijos, kurią įvedėte. Grįžus į tą puslapį bet kokie jūsų atliekami veiksmai gali būti kartojami. Ar norite tęsti?"</string>
+<string name="http_post_warning_resend">"Tęsti"</string>
+<string name="firstrun_signed_in_title">"Prisijungėte prie „Chrome“."</string>
+<string name="firstrun_signed_in_description">"Atidaryti skirtukų lapai, žymės, istorija ir kiti duomenys yra sinchronizuojami „Google“ paskyroje."</string>
+<string name="sad_tab_title">"Oi!"</string>
+<string name="sad_tab_message">"Pateikiant šį tinklalapį, įvyko klaida. Jei norite tęsti, įkelkite tinklalapį iš naujo arba eikite į kitą puslapį."</string>
+<string name="sad_tab_help_message">"Jei tai rodoma dažnai, išbandykite $1."</string>
+<string name="sad_tab_help_link">"pasiūlymai"</string>
+<string name="sad_tab_reload_label">"Įkelti iš naujo"</string>
+</resources>

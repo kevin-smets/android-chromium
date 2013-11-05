@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"إلغاء"</string>
+<string name="http_post_warning">"استخدمت الصفحة التي تبحث عنها المعلومات التي أدخلتها وقد يؤدّي الرجوع إليها  إلى تكرار  جميع الإجراءات السابقة. هل تريد المتابعة؟"</string>
+<string name="http_post_warning_resend">"المتابعة"</string>
+<string name="firstrun_signed_in_title">"‏تم تسجيل دخولك إلى Chrome الآن."</string>
+<string name="firstrun_signed_in_description">"‏تتم مزامنة علامات التبويب المفتوحة والإشارات المرجعية والسجل وغير ذلك الكثير مع حسابك في Google."</string>
+<string name="sad_tab_title">"عذرًا!"</string>
+<string name="sad_tab_message">"حدث خطأ ما أثناء عرض صفحة الويب هذه. للمتابعة، أعد تحميلها أو انتقل إلى صفحة أخرى."</string>
+<string name="sad_tab_help_message">"إذا كنت تشاهد هذا بكثرة، فجرّب $1."</string>
+<string name="sad_tab_help_link">"اقتراحات"</string>
+<string name="sad_tab_reload_label">"إعادة تحميل"</string>
+</resources>

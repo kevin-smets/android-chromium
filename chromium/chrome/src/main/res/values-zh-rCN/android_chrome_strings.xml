@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="leave_this_page">"离开此页"</string>
+<string name="stay_on_this_page">"留在此页"</string>
+<string name="reload_this_page">"重新加载此页"</string>
+<string name="dont_reload_this_page">"不重新加载"</string>
+<string name="js_modal_dialog_confirm">"确定"</string>
+<string name="js_modal_dialog_cancel">"取消"</string>
+<string name="suppress_js_modal_dialogs">"阻止此页创建其他对话框"</string>
+<string name="accessibility_js_modal_dialog_prompt">"提示"</string>
+<string name="certtitle">"证书查看器"</string>
+<string name="sync_error_generic">"同步错误"</string>
+<string name="sync_error_ga">"请更新您的登录详情。"</string>
+<string name="sync_error_connection">"无法连接到同步服务器。"</string>
+<string name="sync_error_domain">"您的网域不支持同步。"</string>
+<string name="sync_error_service_unavailable">"此服务目前无法使用，请稍后再试。"</string>
+<string name="policy_dialog_title">"确认登录"</string>
+<string name="policy_dialog_message">"此帐户由 %1$s 管理。
+
+您目前登录的帐户是一个托管帐户，该帐户的管理员将能够控制您的 Chrome 个人资料。您的 Chrome 数据将永远与此帐户相关联。断开与此帐户的关联将删除本地 Chrome 数据。"</string>
+<string name="policy_dialog_proceed">"接受并登录"</string>
+<string name="policy_dialog_cancel">"取消"</string>
+<string name="wiping_profile_data_title">"清除帐户数据"</string>
+<string name="wiping_profile_data_message">"请稍候..."</string>
+<string name="infobar_close">"关闭"</string>
+<string name="translate_infobar_text">"This page is in ^1. Translate it to ^2?"</string>
+<string name="translate_infobar_change_languages">"Change languages"</string>
+<string name="translate_infobar_translation_done">"Translated to %1$s."</string>
+<string name="translate_infobar_translation_more_options">"More"</string>
+<string name="translate_infobar_translating">"Translating page to %1$s..."</string>
+<string name="translate_infobar_error">"Oops. This page could not be translated."</string>
+<string name="translate_always_text">"Always translate %1$s"</string>
+<string name="translate_never_translate_message_text">"Would you like Google Chrome to offer to translate %1$s pages from this site next time?"</string>
+<string name="translate_button">"Translate"</string>
+<string name="translate_nope">"Nope"</string>
+<string name="translate_show_original">"Show original"</string>
+<string name="translate_retry">"Try again"</string>
+<string name="translate_options_source_hint">"Page Language: ^1"</string>
+<string name="translate_options_target_hint">"Translation Language: ^1"</string>
+<string name="translate_button_done">"Done"</string>
+<string name="translate_never_translate_site">"Never translate this site"</string>
+<string name="translate_never_translate_language">"Never translate %1$s"</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Отмена"</string>
+<string name="http_post_warning">"На странице, которую вы ищете, использовалась введенная вами информация. При возврате на эту страницу может потребоваться повторить выполненные ранее действия. Продолжить?"</string>
+<string name="http_post_warning_resend">"Далее"</string>
+<string name="firstrun_signed_in_title">"Вы вошли в Chrome."</string>
+<string name="firstrun_signed_in_description">"Вкладки, закладки, история и настройки синхронизируются с вашим аккаунтом Google."</string>
+<string name="sad_tab_title">"Опаньки..."</string>
+<string name="sad_tab_message">"Не удалось открыть веб-страницу. Попробуйте обновить ее или перейдите на другую страницу."</string>
+<string name="sad_tab_help_message">"Если эта проблема возникает часто, изучите $1."</string>
+<string name="sad_tab_help_link">"подсказки"</string>
+<string name="sad_tab_reload_label">"Перезагрузить"</string>
+</resources>

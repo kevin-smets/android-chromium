@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Hủy"</string>
+<string name="http_post_warning">"Trang mà bạn đang tìm sử dụng thông tin bạn đã nhập vào. Việc quay lại trang đó có thể lặp lại bất kỳ tác vụ nào bạn đã thực hiện. Bạn có muốn tiếp tục không?"</string>
+<string name="http_post_warning_resend">"Tiếp tục"</string>
+<string name="firstrun_signed_in_title">"Bạn hiện đã đăng nhập vào Chrome."</string>
+<string name="firstrun_signed_in_description">"Các tab đang mở, dấu trang, lịch sử và nhiều nội dung khác đang được đồng bộ hóa với tài khoản Google của bạn."</string>
+<string name="sad_tab_title">"Xin lỗi!"</string>
+<string name="sad_tab_message">"Đã xảy ra lỗi khi hiển thị trang web này. Để tiếp tục, hãy tải lại hoặc truy cập vào một trang khác."</string>
+<string name="sad_tab_help_message">"Nếu bạn thường xuyên thấy thông báo này, hãy thử các $1 sau."</string>
+<string name="sad_tab_help_link">"đề xuất"</string>
+<string name="sad_tab_reload_label">"Tải lại"</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Odustani"</string>
+<string name="http_post_warning">"Stranica koju ste tražili koristila je podatke koje ste unijeli. Vraćanje na tu stranicu može dovesti do ponavljanja poduzete radnje. Želite li nastaviti?"</string>
+<string name="http_post_warning_resend">"Nastavi"</string>
+<string name="firstrun_signed_in_title">"Sada ste prijavljeni na Chrome."</string>
+<string name="firstrun_signed_in_description">"Otvorene kartice, oznake, povijest i brojni drugi podaci sinkroniziraju se s vašim Google računom."</string>
+<string name="sad_tab_title">"O, ne!"</string>
+<string name="sad_tab_message">"Nešto nije u redu s prikazivanjem ove web-stranice. Da biste nastavili, učitajte je ponovo ili idite na neku drugu stranicu."</string>
+<string name="sad_tab_help_message">"Ako se to često prikazuje, pokušajte $1."</string>
+<string name="sad_tab_help_link">"prijedlozi"</string>
+<string name="sad_tab_reload_label">"Ponovno učitaj"</string>
+</resources>

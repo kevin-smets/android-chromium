@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Avbryt"</string>
+<string name="http_post_warning">"Siden du ser etter, brukte informasjon som du anga. Hvis du går tilbake til denne siden, kan det føre til at handlinger som er utført, blir gjentatt. Vil du fortsette?"</string>
+<string name="http_post_warning_resend">"Fortsett"</string>
+<string name="firstrun_signed_in_title">"Du er nå logget på Chrome."</string>
+<string name="firstrun_signed_in_description">"De åpne fanene, bokmerkene, loggen og mer blir synkronisert med Google-kontoen din."</string>
+<string name="sad_tab_title">"Å nei!"</string>
+<string name="sad_tab_message">"Noe gikk galt under visningen av nettsiden. Du kan fortsette ved å laste inn på nytt eller gå til en annen side."</string>
+<string name="sad_tab_help_message">"Hvis du ser denne meldingen ofte, kan du prøve disse $1."</string>
+<string name="sad_tab_help_link">"forslag"</string>
+<string name="sad_tab_reload_label">"Last inn på nytt"</string>
+</resources>

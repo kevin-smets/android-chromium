@@ -1,0 +1,14 @@
+
+// content-shell/build.gradle
+
+// this is an Android application that builds the Chromium Content Shell
+
+dependencies {
+  compile fileTree(dir: "${buildDir}/native/", include: '*.jar')
+  compile project(":chromium:content")
+  compile project(":chromium:media")
+}
+
+tasks.withType(Compile) {
+  compileTask -> compileTask.dependsOn(copyNativeLibsToJar)
+}

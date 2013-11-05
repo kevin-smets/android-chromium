@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="leave_this_page">"Напусти ову страницу"</string>
+<string name="stay_on_this_page">"Остани на овој страници"</string>
+<string name="reload_this_page">"Поново учитај ову страницу"</string>
+<string name="dont_reload_this_page">"Не учитавај поново"</string>
+<string name="js_modal_dialog_confirm">"Потврди"</string>
+<string name="js_modal_dialog_cancel">"Откажи"</string>
+<string name="suppress_js_modal_dialogs">"Спречи ову страницу да прави додатне дијалоге"</string>
+<string name="accessibility_js_modal_dialog_prompt">"Упит"</string>
+<string name="certtitle">"Приказивач сертификата"</string>
+<string name="sync_error_generic">"Грешка при синхронизацији"</string>
+<string name="sync_error_ga">"Ажурирајте податке за пријављивање."</string>
+<string name="sync_error_connection">"Није могуће повезивање са сервером за синхронизацију."</string>
+<string name="sync_error_domain">"Синхронизација није доступна за домен."</string>
+<string name="sync_error_service_unavailable">"Услуга није доступна. Покушајте поново касније."</string>
+<string name="policy_dialog_title">"Потврдите пријављивање"</string>
+<string name="policy_dialog_message">"Овим налогом управља %1$s.
+
+Пријављујете се помоћу управљаног налога и дајете администратору контролу над Chrome профилом. Chrome подаци ће постати трајно повезани са овим налогом. Ако прекинете везу са овим налогом, избрисаћете локалне Chrome податке."</string>
+<string name="policy_dialog_proceed">"Прихвати и пријави ме"</string>
+<string name="policy_dialog_cancel">"Откажи"</string>
+<string name="wiping_profile_data_title">"Брисање података о налогу"</string>
+<string name="wiping_profile_data_message">"Сачекајте…"</string>
+<string name="infobar_close">"Затвори"</string>
+<string name="translate_infobar_text">"This page is in ^1. Translate it to ^2?"</string>
+<string name="translate_infobar_change_languages">"Change languages"</string>
+<string name="translate_infobar_translation_done">"Translated to %1$s."</string>
+<string name="translate_infobar_translation_more_options">"More"</string>
+<string name="translate_infobar_translating">"Translating page to %1$s..."</string>
+<string name="translate_infobar_error">"Oops. This page could not be translated."</string>
+<string name="translate_always_text">"Always translate %1$s"</string>
+<string name="translate_never_translate_message_text">"Would you like Google Chrome to offer to translate %1$s pages from this site next time?"</string>
+<string name="translate_button">"Translate"</string>
+<string name="translate_nope">"Nope"</string>
+<string name="translate_show_original">"Show original"</string>
+<string name="translate_retry">"Try again"</string>
+<string name="translate_options_source_hint">"Page Language: ^1"</string>
+<string name="translate_options_target_hint">"Translation Language: ^1"</string>
+<string name="translate_button_done">"Done"</string>
+<string name="translate_never_translate_site">"Never translate this site"</string>
+<string name="translate_never_translate_language">"Never translate %1$s"</string>
+</resources>

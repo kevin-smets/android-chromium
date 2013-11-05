@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="leave_this_page">"ออกจากหน้านี้"</string>
+<string name="stay_on_this_page">"อยู่ในหน้านี้"</string>
+<string name="reload_this_page">"โหลดหน้าเว็บนี้ซ้ำ"</string>
+<string name="dont_reload_this_page">"อย่าโหลดซ้ำ"</string>
+<string name="js_modal_dialog_confirm">"ตกลง"</string>
+<string name="js_modal_dialog_cancel">"ยกเลิก"</string>
+<string name="suppress_js_modal_dialogs">"ป้องกันหน้าเว็บนี้จากการสร้างการโต้ตอบเพิ่มเติม"</string>
+<string name="accessibility_js_modal_dialog_prompt">"หน้าต่างแจ้งเตือน"</string>
+<string name="certtitle">"เครื่องมือดูใบรับรอง"</string>
+<string name="sync_error_generic">"ข้อผิดพลาดในการซิงค์"</string>
+<string name="sync_error_ga">"โปรดอัปเดตรายละเอียดการลงชื่อเข้าใช้ของคุณ"</string>
+<string name="sync_error_connection">"ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์การซิงค์"</string>
+<string name="sync_error_domain">"การซิงค์ไม่พร้อมใช้งานสำหรับโดเมนของคุณ"</string>
+<string name="sync_error_service_unavailable">"บริการนี้ยังไม่สามารถใช้ได้ โปรดลองอีกครั้งในภายหลัง"</string>
+<string name="policy_dialog_title">"ยืนยันการลงชื่อเข้าใช้"</string>
+<string name="policy_dialog_message">"ผู้จัดการบัญชีนี้คือ %1$s
+
+คุณกำลังลงชื่อเข้าใช้ด้วยบัญชีที่มีผู้อื่นเป็นผู้จัดการ และคุณอนุญาตให้ผู้ดูแลระบบควบคุมโปรไฟล์ Chrome ของคุณได้ ข้อมูล Chrome ของคุณจะเชื่อมโยงกับบัญชีนี้อย่างถาวร การยกเลิกการเชื่อมต่อกับบัญชีนี้จะเป็นการลบข้อมูล Chrome ในเครื่อง"</string>
+<string name="policy_dialog_proceed">"ยอมรับและลงชื่อเข้าใช้"</string>
+<string name="policy_dialog_cancel">"ยกเลิก"</string>
+<string name="wiping_profile_data_title">"กำลังล้างข้อมูลบัญชี"</string>
+<string name="wiping_profile_data_message">"โปรดรอสักครู่..."</string>
+<string name="infobar_close">"ปิด"</string>
+<string name="translate_infobar_text">"This page is in ^1. Translate it to ^2?"</string>
+<string name="translate_infobar_change_languages">"Change languages"</string>
+<string name="translate_infobar_translation_done">"Translated to %1$s."</string>
+<string name="translate_infobar_translation_more_options">"More"</string>
+<string name="translate_infobar_translating">"Translating page to %1$s..."</string>
+<string name="translate_infobar_error">"Oops. This page could not be translated."</string>
+<string name="translate_always_text">"Always translate %1$s"</string>
+<string name="translate_never_translate_message_text">"Would you like Google Chrome to offer to translate %1$s pages from this site next time?"</string>
+<string name="translate_button">"Translate"</string>
+<string name="translate_nope">"Nope"</string>
+<string name="translate_show_original">"Show original"</string>
+<string name="translate_retry">"Try again"</string>
+<string name="translate_options_source_hint">"Page Language: ^1"</string>
+<string name="translate_options_target_hint">"Translation Language: ^1"</string>
+<string name="translate_button_done">"Done"</string>
+<string name="translate_never_translate_site">"Never translate this site"</string>
+<string name="translate_never_translate_language">"Never translate %1$s"</string>
+</resources>

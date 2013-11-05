@@ -1,0 +1,13 @@
+
+// testshell/build.gradle
+
+// this is an Android application that builds the Chromium TestShell
+
+dependencies {
+  compile fileTree(dir: "${buildDir}/native/", include: '*.jar')
+  compile project(':chromium:chrome')
+}
+
+tasks.withType(Compile) {
+  compileTask -> compileTask.dependsOn(copyNativeLibsToJar)
+}

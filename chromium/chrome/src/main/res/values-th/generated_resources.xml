@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"ยกเลิก"</string>
+<string name="http_post_warning">"หน้าที่คุณกำลังมองหาใช้ข้อมูลที่คุณได้ป้อนไว้แล้ว การกลับไปสู่หน้านั้นอาจทำให้คุณต้องทำซ้ำการดำเนินการใดๆ ที่คุณทำแล้ว คุณต้องการดำเนินการต่อหรือไม่"</string>
+<string name="http_post_warning_resend">"ดำเนินการต่อ"</string>
+<string name="firstrun_signed_in_title">"คุณได้ลงชื่อเข้าใช้ Chrome แล้ว"</string>
+<string name="firstrun_signed_in_description">"กำลังซิงค์แท็บที่เปิด บุ๊กมาร์ก ประวัติการเข้าชม และอื่นๆ ของคุณกับบัญชี Google"</string>
+<string name="sad_tab_title">"แย่จัง!"</string>
+<string name="sad_tab_message">"เกิดข้อผิดพลาดขณะแสดงหน้าเว็บนี้ หากต้องการดำเนินการต่อ ให้โหลดหน้าเว็บนี้ซ้ำหรือไปที่หน้าเว็บอื่น"</string>
+<string name="sad_tab_help_message">"หากคุณเห็นข้อความนี้บ่อยๆ ให้ลองไปที่ $1"</string>
+<string name="sad_tab_help_link">"คำแนะนำ"</string>
+<string name="sad_tab_reload_label">"โหลดใหม่"</string>
+</resources>

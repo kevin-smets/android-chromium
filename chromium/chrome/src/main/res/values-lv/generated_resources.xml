@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Atcelt"</string>
+<string name="http_post_warning">"Lapa, ko meklējāt, izmantoja jūsu ievadīto informāciju. Atgriešanās lapā var radīt jebkuras jūsu darbības atkārtojumu. Vai vēlaties turpināt?"</string>
+<string name="http_post_warning_resend">"Turpināt"</string>
+<string name="firstrun_signed_in_title">"Tagad esat pierakstījies pakalpojumā Chrome."</string>
+<string name="firstrun_signed_in_description">"Jūsu atvērtās cilnes, grāmatzīmes, vēsture un citi dati tiek sinhronizēti ar jūsu Google kontu."</string>
+<string name="sad_tab_title">"Cilnes avārija."</string>
+<string name="sad_tab_message">"Šīs tīmekļa lapas rādīšanas laikā radās kļūda. Lai turpinātu, veiciet lapas atkārtotu ielādi vai atveriet citu lapu."</string>
+<string name="sad_tab_help_message">"Ja šo redzat bieži, izmēģiniet šos $1."</string>
+<string name="sad_tab_help_link">"ieteikumus"</string>
+<string name="sad_tab_reload_label">"Pārlādēt"</string>
+</resources>

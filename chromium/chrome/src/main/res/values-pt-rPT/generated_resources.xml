@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Cancelar"</string>
+<string name="http_post_warning">"A página que procura utilizou informações introduzidas por si. Regressar a essa página poderá originar a repetição de qualquer acção que tenha efetuado. Pretende continuar?"</string>
+<string name="http_post_warning_resend">"Continuar"</string>
+<string name="firstrun_signed_in_title">"Tem agora sessão iniciada no Chrome."</string>
+<string name="firstrun_signed_in_description">"Os seus separadores abertos, marcadores, histórico e muito mais estão a ser sincronizados com a sua Conta Google."</string>
+<string name="sad_tab_title">"Ah, bolas!!"</string>
+<string name="sad_tab_message">"Ocorreu um erro ao apresentar esta página Web. Para continuar, atualize ou aceda a outra página"</string>
+<string name="sad_tab_help_message">"Se vê isto com frequência, experimente $1."</string>
+<string name="sad_tab_help_link">"sugestões"</string>
+<string name="sad_tab_reload_label">"Recarregar"</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Cancel·la"</string>
+<string name="http_post_warning">"La pàgina que busques utilitzava informació que vas introduir. Tornar a aquesta pàgina podria provocar una repetició de qualsevol acció realitzada. Vols continuar?"</string>
+<string name="http_post_warning_resend">"Continua"</string>
+<string name="firstrun_signed_in_title">"S\'ha iniciat la sessió a Chrome."</string>
+<string name="firstrun_signed_in_description">"S\'estan sincronitzant es pestanyes obertes, les adreces d\'interès, l\'historial i altres elements amb el vostre compte de Google."</string>
+<string name="sad_tab_title">"Oh, no!"</string>
+<string name="sad_tab_message">"Ha fallat alguna cosa en mostrar la pàgina. Per continuar, torneu-la a carregar o aneu a una altra pàgina."</string>
+<string name="sad_tab_help_message">"Si aquest missatge apareix sovint, proveu aquests $1."</string>
+<string name="sad_tab_help_link">"suggeriments"</string>
+<string name="sad_tab_reload_label">"Torna a carregar"</string>
+</resources>

@@ -1,0 +1,8 @@
+
+// media/build.gradle
+
+// this is an android library that implements the org.chromium.media APIs
+
+dependencies {
+  compile project(':chromium:base')
+}

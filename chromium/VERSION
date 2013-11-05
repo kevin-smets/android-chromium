@@ -1,0 +1,112 @@
+This file tracks the version that we built Chromium from.
+
+-------------------------------------------------------------------------------
+Last git commit on chromium/src =>
+-------------------------------------------------------------------------------
+commit 6651791e6288c234862f9aecf42985bfae4e75e8
+Merge: f59c047 9f73963
+Author: gitdeps <gitdeps@chromium.org>
+Date:   Tue Oct 29 11:04:21 2013 -0700
+
+    SVN changes up to revision 231602
+
+https://src.chromium.org/viewvc/chrome?revision=231602&view=revision
+-------------------------------------------------------------------------------
+Contents of .gclient =>
+-------------------------------------------------------------------------------
+solutions = [{u'managed': False, u'name': u'src', u'url': u'https://chromium.googlesource.com/chromium/src.git', u'custom_deps': {}, u'deps_file': u'.DEPS.git', u'safesync_url': u''}]
+target_os = [u'android']
+
+
+-------------------------------------------------------------------------------
+Contents of .gclient_entries =>
+-------------------------------------------------------------------------------
+entries = {
+  u'src': u'https://chromium.googlesource.com/chromium/src.git',
+  'src/breakpad/src': 'https://chromium.googlesource.com/external/google-breakpad/src.git@44fd3d06cb4b57b80a44004a2b7d5a7d28d96ebc',
+  'src/chrome/test/data/extensions/api_test/permissions/nacl_enabled/bin': 'https://chromium.googlesource.com/native_client/src/native_client/tests/prebuilt.git@3e17365176c94624f46cace174f61834b7f3c35d',
+  'src/chrome/test/data/perf/canvas_bench': 'https://chromium.googlesource.com/chromium/canvas_bench.git@a7b40ea5ae0239517d78845a5fc9b12976bfc732',
+  'src/chrome/test/data/perf/frame_rate/content': 'https://chromium.googlesource.com/chromium/frame_rate/content.git@c10272c88463efeef6bb19c9ec07c42bc8fe22b9',
+  'src/chrome/test/data/perf/third_party/octane': 'https://chromium.googlesource.com/external/octane-benchmark.git@9ac27bfd9e0bc73663db0c0551440215d8b20d09',
+  'src/chrome/tools/test/reference_build/chrome_linux': 'https://chromium.googlesource.com/chromium/reference_builds/chrome_linux.git@5bcc748379d5c5b734d41f8fc834d38f562e210b',
+  'src/media/cdm/ppapi/api': 'https://chromium.googlesource.com/chromium/cdm.git@38f9d195181e1e2e2d52c0b2b50b70bed00058af',
+  'src/native_client': 'https://chromium.googlesource.com/native_client/src/native_client.git@8004836801c44ce1ed4d51dffdd3f0ce583db80a',
+  'src/sdch/open-vcdiff': 'https://chromium.googlesource.com/external/open-vcdiff.git@438f2a5be6d809bc21611a94cd37bfc8c28ceb33',
+  'src/testing/gmock': 'https://chromium.googlesource.com/external/googlemock.git@6b1759c3816d574bddde3e1725c51a811c8870e7',
+  'src/testing/gtest': 'https://chromium.googlesource.com/external/googletest.git@a6772271f71672e889776bfe49ec4efd9da036df',
+  'src/third_party/WebKit': 'https://chromium.googlesource.com/chromium/blink.git@f3b3c4ff5b988579d6203b9e3864538920070610',
+  'src/third_party/android_tools': 'https://chromium.googlesource.com/android_tools.git@e504b737693e96816b40e6ae80d177352c079c18',
+  'src/third_party/angle_dx11': 'https://chromium.googlesource.com/external/angle.git@b992a7d282a996d15da3e194695ddebff50fd956',
+  'src/third_party/aosp': 'https://chromium.googlesource.com/chromium/deps/aosp.git@bbafe5155dff86bbba1e92b42a073ffcfcfbf28c',
+  'src/third_party/apache-mime4j': 'https://chromium.googlesource.com/chromium/deps/apache-mime4j.git@28cb1108bff4b6cf0a2e86ff58b3d025934ebe3a',
+  'src/third_party/bidichecker': 'https://chromium.googlesource.com/external/bidichecker/lib.git@97f2aa645b74c28c57eca56992235c79850fa9e0',
+  'src/third_party/cacheinvalidation/src': 'https://chromium.googlesource.com/external/google-cache-invalidation-api/src.git@1ea5629c3d190998a24a14ffb58193e109b71855',
+  'src/third_party/chromite': 'https://chromium.googlesource.com/chromiumos/chromite.git@cbdd21c5ea76aa93ba4619a6d253697765f4de1f',
+  'src/third_party/cld_2/src': 'https://chromium.googlesource.com/external/cld2.git@b17c3c025db379fbeb56c4215bc1eb8737576f4c',
+  'src/third_party/cros_dbus_cplusplus/source': 'https://chromium.googlesource.com/chromiumos/third_party/dbus-cplusplus.git@5e8f6d9db5c2abfb91d91f751184f25bb5cd0900',
+  'src/third_party/cros_system_api': 'https://chromium.googlesource.com/chromiumos/platform/system_api.git@99bce39f55240926a75454bb70998ab9f5ce9f13',
+  'src/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille': 'https://chromium.googlesource.com/external/eyes-free/braille/client/src/com/googlecode/eyesfree/braille.git@77bf6edb0138e3a38a2772248696f130dab45e34',
+  'src/third_party/ffmpeg': 'https://chromium.googlesource.com/chromium/third_party/ffmpeg.git@3cd1dee6583cb4e019c518945083d64f1b990300',
+  'src/third_party/findbugs': 'https://chromium.googlesource.com/chromium/deps/findbugs.git@b9b6889b94a3081615d5ca62173e9816a31cc1eb',
+  'src/third_party/flac': 'https://chromium.googlesource.com/chromium/deps/flac.git@71e33f190a7bb144fe4e2014897b8d15c8247198',
+  'src/third_party/freetype': 'https://chromium.googlesource.com/chromium/src/third_party/freetype.git@e3b631da8034f7c6ecc6d809cd9e46d306215c32',
+  'src/third_party/freetype2/src': 'https://chromium.googlesource.com/chromium/src/third_party/freetype2.git@d699c2994ecc178c4ed05ac2086061b2034c2178',
+  'src/third_party/gold': 'https://chromium.googlesource.com/chromium/deps/gold.git@b471bdbb6e7c0ab8c5f105cc1489177fa4105778',
+  'src/third_party/guava/src': 'https://chromium.googlesource.com/external/guava-libraries.git@c523556ab7d0f05afadebd20e7768d4c16af8771',
+  'src/third_party/httpcomponents-client': 'https://chromium.googlesource.com/chromium/deps/httpcomponents-client.git@285c4dafc5de0e853fa845dce5773e223219601c',
+  'src/third_party/httpcomponents-core': 'https://chromium.googlesource.com/chromium/deps/httpcomponents-core.git@9f7180a96f8fa5cab23f793c14b413356d419e62',
+  'src/third_party/hunspell': 'https://chromium.googlesource.com/chromium/deps/hunspell.git@37403978cd939a2b396a5d49944af54623e4795e',
+  'src/third_party/hunspell_dictionaries': 'https://chromium.googlesource.com/chromium/deps/hunspell_dictionaries.git@bc7edb352e97fa71e387b9a5522f1bbd5b11a5eb',
+  'src/third_party/icu': 'https://chromium.googlesource.com/chromium/deps/icu46.git@763fff3b5360213b5f0e18d099b9dac867181b57',
+  'src/third_party/jarjar': 'https://chromium.googlesource.com/chromium/deps/jarjar.git@2e1ead4c68c450e0b77fe49e3f9137842b8b6920',
+  'src/third_party/jsoncpp/source/include': 'https://chromium.googlesource.com/external/jsoncpp/jsoncpp/include.git@b0dd48e02b6e6248328db78a65b5c601f150c349',
+  'src/third_party/jsoncpp/source/src/lib_json': 'https://chromium.googlesource.com/external/jsoncpp/jsoncpp/src/lib_json.git@a8caa51ba2f80971a45880425bf2ae864a786784',
+  'src/third_party/jsr-305/src': 'https://chromium.googlesource.com/external/jsr-305.git@642c508235471f7220af6d5df2d3210e3bfc0919',
+  'src/third_party/leveldatabase/src': 'https://chromium.googlesource.com/external/leveldb.git@2d749ea62f0e47281e82794c8e00eb588cd66616',
+  'src/third_party/libexif/sources': 'https://chromium.googlesource.com/chromium/deps/libexif/sources.git@d815c325bab0d1871d4c7e70600ecdfdab07db9e',
+  'src/third_party/libjingle/source/talk': 'https://chromium.googlesource.com/external/webrtc/stable/talk.git@834abe82dfc619d427cac9c095020734fe474257',
+  'src/third_party/libjpeg_turbo': 'https://chromium.googlesource.com/chromium/deps/libjpeg_turbo.git@32cab49bd4cb1ce069a435fd75f9439c34ddc6f8',
+  'src/third_party/libmtp': 'https://chromium.googlesource.com/chromium/deps/libmtp.git@40240d6f1c1560d1851c217cecada93050e2db0e',
+  'src/third_party/libphonenumber/src/phonenumbers': 'https://chromium.googlesource.com/external/libphonenumber/cpp/src/phonenumbers.git@8d8b5b3b2035197795d27573d4cf566b5d9ad689',
+  'src/third_party/libphonenumber/src/resources': 'https://chromium.googlesource.com/external/libphonenumber/resources.git@de095548d2ae828a414e01f3951bfefba902b4e4',
+  'src/third_party/libphonenumber/src/test': 'https://chromium.googlesource.com/external/libphonenumber/cpp/test.git@883b7b86541d64b2691f7c0e65facb0b08db73e8',
+  'src/third_party/libsrtp': 'https://chromium.googlesource.com/chromium/deps/libsrtp.git@c3261b9d0df2c7371f4acc28008ec0c891e44faf',
+  'src/third_party/libvpx': 'https://chromium.googlesource.com/chromium/deps/libvpx.git@9203acd86b237b7dfbbd08bd6d5a7f3208e0c2bb',
+  'src/third_party/libyuv': 'https://chromium.googlesource.com/external/libyuv.git@d36d2606fc7c9d719190676740b4d7b0cc53942f',
+  'src/third_party/lss': 'https://chromium.googlesource.com/external/linux-syscall-support/lss.git@e6c7682c40c27527894fbb8bcba38f77edbbb6b7',
+  'src/third_party/mesa/src': 'https://chromium.googlesource.com/chromium/deps/mesa.git@e740c825b11773ebe636675977e5f79de253c745',
+  'src/third_party/mtpd/source': 'https://chromium.googlesource.com/chromiumos/platform/mtpd.git@5be739c938a0a229ba9479b00b180e1f9c843e81',
+  'src/third_party/openmax_dl': 'https://chromium.googlesource.com/external/webrtc/deps/third_party/openmax.git@6b2bf4b577035e2be7e5b096a7148171e5ffadd2',
+  'src/third_party/openssl': 'https://chromium.googlesource.com/chromium/deps/openssl.git@8a612017162d5dd6fde1b22715941723b49e8f99',
+  'src/third_party/opus/src': 'https://chromium.googlesource.com/chromium/deps/opus.git@6b6bee25314cfac02cc555cddedb9680c63a26d6',
+  'src/third_party/ots': 'https://chromium.googlesource.com/external/ots.git@6e9099c9e28a9dc7b4083f4f9cbcbaef6a8e0031',
+  'src/third_party/pyelftools': 'https://chromium.googlesource.com/chromiumos/third_party/pyelftools.git@bdc1d380acd88d4bfaf47265008091483b0d614e',
+  'src/third_party/pyftpdlib/src': 'https://chromium.googlesource.com/external/pyftpdlib.git@2be6d65e31c7ee6320d059f581f05ae8d89d7e45',
+  'src/third_party/pywebsocket/src': 'https://chromium.googlesource.com/external/pywebsocket/src.git@e8de2ba77f55c48e291f70f389f647fafd12ec87',
+  'src/third_party/safe_browsing/testing': 'https://chromium.googlesource.com/external/google-safe-browsing/testing.git@9d7e8064f3ca2e45891470c9b5b1dce54af6a9d6',
+  'src/third_party/scons-2.0.1': 'https://chromium.googlesource.com/native_client/src/third_party/scons-2.0.1.git@c81c95aff36392cffede13382dd5fcad25c0a603',
+  'src/third_party/sfntly/cpp/src': 'https://chromium.googlesource.com/external/sfntly/cpp/src.git@8f090032dd4f8f8908f338cc73bb840b788377f2',
+  'src/third_party/skia/gyp': 'https://chromium.googlesource.com/external/skia/gyp.git@09c54933aa77eca9964632198ddbde238ec1c12a',
+  'src/third_party/skia/include': 'https://chromium.googlesource.com/external/skia/include.git@98fa859e61522c235f33c7e38e12435f1fd00bf6',
+  'src/third_party/skia/src': 'https://chromium.googlesource.com/external/skia/src.git@0084f458191889ece5cebc7969a354ece6c7c029',
+  'src/third_party/smhasher/src': 'https://chromium.googlesource.com/external/smhasher.git@6f63a4882e6b2cf87e8eec1a3ef8644e0d963283',
+  'src/third_party/snappy/src': 'https://chromium.googlesource.com/external/snappy.git@762bb32f0c9d2f31ba4958c7c0933d22e80c20bf',
+  'src/third_party/speex': 'https://chromium.googlesource.com/chromium/deps/speex.git@f448dfcceac99e0a771feaeedf447523b3fd26e1',
+  'src/third_party/swig/Lib': 'https://chromium.googlesource.com/chromium/deps/swig/Lib.git@f2a695d52e61e6a8d967731434f165ed400f0d69',
+  'src/third_party/swig/linux': 'https://chromium.googlesource.com/chromium/deps/swig/linux.git@866b8e0e0e0cfe99ebe608260030916ca0c3f92d',
+  'src/third_party/trace-viewer': 'https://chromium.googlesource.com/external/trace-viewer.git@4f179283ae6325f9bc2899ca8bcfbfeccc211614',
+  'src/third_party/undoview': 'https://chromium.googlesource.com/chromium/deps/undoview.git@3ba503e248f3cdbd81b78325a24ece0984637559',
+  'src/third_party/usrsctp/usrsctplib': 'https://chromium.googlesource.com/external/usrsctplib.git@ec8cbf0c740353314c289a5bc87a7538e2af08bf',
+  'src/third_party/webdriver/pylib': 'https://chromium.googlesource.com/external/selenium/py.git@8212c8017c92a1ba740caf01c1acefb3674a6a44',
+  'src/third_party/webgl_conformance': 'https://chromium.googlesource.com/chromium/deps/webgl/sdk/tests.git@effa22ac00aa8fd88b55fc49a846d5dd39168173',
+  'src/third_party/webpagereplay': 'https://chromium.googlesource.com/external/web-page-replay.git@b4773b3704bce171f67f25bccdae6125296fea6e',
+  'src/third_party/webrtc': 'https://chromium.googlesource.com/external/webrtc/stable/webrtc.git@636cca276f966a63b9b7437e56256bdfd06ce67d',
+  'src/third_party/xdg-utils': 'https://chromium.googlesource.com/chromium/deps/xdg-utils.git@d80274d5869b17b8c9067a1022e4416ee7ed5e0d',
+  'src/third_party/yasm/source/patched-yasm': 'https://chromium.googlesource.com/chromium/deps/yasm/patched-yasm.git@c960eb11ccda80b10ed50be39df4f0663b371d1d',
+  'src/tools/deps2git': 'https://chromium.googlesource.com/chromium/tools/deps2git.git@89559a9d3ade3e71993db9cc5959fcc58ed14b9e',
+  'src/tools/grit': 'https://chromium.googlesource.com/external/grit-i18n.git@11e589a0b4a958ad1b5411692ee576cbee9f6ca5',
+  'src/tools/gyp': 'https://chromium.googlesource.com/external/gyp.git@072660db6ec1fafc1e0997439b5015913f0b9aa5',
+  'src/tools/page_cycler/acid3': 'https://chromium.googlesource.com/chromium/deps/acid3.git@6be0a66a1ebd7ebc5abc1b2f405a945f6d871521',
+  'src/tools/swarm_client': 'https://chromium.googlesource.com/chromium/tools/swarm_client.git@141ef86f4abf255e578320bfe6e42006c251bc39',
+  'src/v8': 'https://chromium.googlesource.com/external/v8.git@e94b5ff1e1e95fb2c8ef6bce66ce8533786d9792',
+}

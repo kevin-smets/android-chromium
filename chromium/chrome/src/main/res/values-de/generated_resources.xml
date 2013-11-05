@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Abbrechen"</string>
+<string name="http_post_warning">"Die gesuchte Seite hat die von Ihnen eingegebenen Informationen verwendet bzw. verarbeitet. Wenn Sie zu dieser Seite zurückgehen, wird möglicherweise eine bereits ausgeführte Aktion wiederholt. Möchten Sie fortfahren?"</string>
+<string name="http_post_warning_resend">"Weiter"</string>
+<string name="firstrun_signed_in_title">"Sie sind jetzt in Chrome angemeldet."</string>
+<string name="firstrun_signed_in_description">"Ihre geöffneten Tabs, Lesezeichen, Ihr Verlauf und andere Inhalte werden mit Ihrem Google-Konto synchronisiert."</string>
+<string name="sad_tab_title">"Oh nein!"</string>
+<string name="sad_tab_message">"Beim Anzeigen dieser Webseite ist ein Fehler aufgetreten. Aktualisieren Sie die Seite oder rufen Sie eine andere Seite auf."</string>
+<string name="sad_tab_help_message">"Sollte Ihnen diese Meldung häufiger angezeigt werden, sehen Sie sich unsere $1 an."</string>
+<string name="sad_tab_help_link">"Vorschläge"</string>
+<string name="sad_tab_reload_label">"Neu laden"</string>
+</resources>

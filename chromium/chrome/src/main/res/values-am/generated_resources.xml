@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"ሰርዝ"</string>
+<string name="http_post_warning">"እየፈለጉት ያሉት ገጽ ያስገቡትን መረጃ ተጥቅሟል። ወደዛ ገጽ መመለስ ወስደውት የነበረውን ርምጃ እንዲደገም ሊያደርግ ይችላል። ለመቀጠል ይፈልጋሉ?"</string>
+<string name="http_post_warning_resend">"ቀጥል"</string>
+<string name="firstrun_signed_in_title">"አሁን ወደ Chrome ገብተዋል።"</string>
+<string name="firstrun_signed_in_description">"ክፍት ትሮችዎ፣ ዕልባቶችዎ፣ ታሪክዎ እና ተጨማሪ ነገሮችዎ ከGoogle መለያዎ ጋር እየተመሳሰሉ ናቸው።"</string>
+<string name="sad_tab_title">"ውይ፣ ተሰናከለ!"</string>
+<string name="sad_tab_message">"ይህን ድረ-ገጽ በማሳየት ላይ ሳለ የሆነ ነገር ልክ አልነበረም። ለመቀጠል ዳግም ይጫኑ ወይም ወደ ሌላ ገጽ ይሂዱ።"</string>
+<string name="sad_tab_help_message">"ይህንን በተደጋጋሚነት የሚያዩ ከሆኑ $1ን ይሞክሩ።"</string>
+<string name="sad_tab_help_link">"የቀረቡ የጥቆማ አስተያየቶች"</string>
+<string name="sad_tab_reload_label">"ዳግም ጫን"</string>
+</resources>

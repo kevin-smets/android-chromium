@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"रद्द करें"</string>
+<string name="http_post_warning">"आपके द्वारा खोजे जा रहे पृष्ठ ने आपके द्वारा प्रविष्ट की गई जानकारी का उपयोग किया है. उस पृष्ठ पर वापस जाने से आपके द्वारा की गई किसी क्रिया को दोहराने की आवश्यकता हो सकती है. क्या आप जारी रखना चाहते हैं?"</string>
+<string name="http_post_warning_resend">"जारी रखें"</string>
+<string name="firstrun_signed_in_title">"अब आप Chrome में प्रवेश हो गए हैं."</string>
+<string name="firstrun_signed_in_description">"आपके खुले टैब, बुकमार्क, खोज इतिहास डेटा आदि आपके Google खाते से समन्वयित किए जा रहे हैं."</string>
+<string name="sad_tab_title">"हे भगवान!"</string>
+<string name="sad_tab_message">"इस वेबपृष्ठ को प्रदर्शित करते समय कोई समस्या आई है. जारी रखने के लिए, पुनः लोड करें या किसी अन्य पृष्ठ पर जाएं."</string>
+<string name="sad_tab_help_message">"यदि आपको यह बार-बार दिखाई दे रहा हो, तो इन $1 को आज़माएं."</string>
+<string name="sad_tab_help_link">"सुझाव"</string>
+<string name="sad_tab_reload_label">"पुन: लोड करें"</string>
+</resources>

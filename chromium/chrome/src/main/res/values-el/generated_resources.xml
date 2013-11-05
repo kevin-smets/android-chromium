@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Ακύρωση"</string>
+<string name="http_post_warning">"Στη σελίδα που αναζητάτε χρησιμοποποιήθηκαν πληροφορίες που καταχωρίσατε. Αν επιστρέψετε σε αυτή τη σελίδα ίσως επαναληφθούν ενέργειες που εκτελέσατε. Θέλετε να συνεχίσετε;"</string>
+<string name="http_post_warning_resend">"Συνέχεια"</string>
+<string name="firstrun_signed_in_title">"Έχετε συνδεθεί πλέον στο Chrome."</string>
+<string name="firstrun_signed_in_description">"Οι ανοιχτές καρτέλες, οι σελιδοδείκτες, το ιστορικό, καθώς και άλλα δεδομένα συγχρονίζονται με το Λογαριασμό σας Google."</string>
+<string name="sad_tab_title">"Όπα! Κάτι πήγε στραβά!"</string>
+<string name="sad_tab_message">"Παρουσιάστηκε πρόβλημα κατά την εμφάνιση αυτής της ιστοσελίδας. Για να συνεχίσετε, επιλέξτε \"Επαναφόρτωση\" ή μεταβείτε σε άλλη σελίδα."</string>
+<string name="sad_tab_help_message">"Αν αυτό το μήνυμα εμφανίζεται συχνά, μπορείτε να βρείτε βοήθεια εδώ $1."</string>
+<string name="sad_tab_help_link">"προτάσεις"</string>
+<string name="sad_tab_reload_label">"Επαναφόρτωση"</string>
+</resources>

@@ -1,0 +1,9 @@
+
+// base/build.gradle
+
+// this is an android library that implements the org.chromium.base APIs
+
+dependencies {
+  // pulled from project local .m2/repository
+  compile "javax.annotations:jsr305:1.0"
+}

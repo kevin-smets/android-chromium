@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.chromium.ui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- blank manifest needs to be here for gradle builds -->
+    <application></application>
+
+</manifest>

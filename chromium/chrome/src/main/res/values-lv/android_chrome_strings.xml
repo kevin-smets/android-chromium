@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="leave_this_page">"Pamest šo lapu"</string>
+<string name="stay_on_this_page">"Palikt šajā lapā"</string>
+<string name="reload_this_page">"Atkārtoti ielādēt šo lapu"</string>
+<string name="dont_reload_this_page">"Neielādēt atkārtoti"</string>
+<string name="js_modal_dialog_confirm">"Labi"</string>
+<string name="js_modal_dialog_cancel">"Atcelt"</string>
+<string name="suppress_js_modal_dialogs">"Neļaut šai lapai veidot papildu dialoglodziņus"</string>
+<string name="accessibility_js_modal_dialog_prompt">"Uzvedne"</string>
+<string name="certtitle">"Sertifikāta skatītājs"</string>
+<string name="sync_error_generic">"Sinhronizācijas kļūda."</string>
+<string name="sync_error_ga">"Lūdzu, atjauniniet pierakstīšanās informāciju."</string>
+<string name="sync_error_connection">"Nevarēja izveidot savienojumu ar sinhronizācijas serveri."</string>
+<string name="sync_error_domain">"Jūsu domēnam nav pieejama sinhronizācija."</string>
+<string name="sync_error_service_unavailable">"Pakalpojums nav pieejams. Vēlāk mēģiniet vēlreiz."</string>
+<string name="policy_dialog_title">"Pierakstīšanās apstiprinājums"</string>
+<string name="policy_dialog_message">"Šis konts tiek pārvaldīts domēnā %1$s.
+
+Jūs pierakstāties, izmantojot pārvaldītu kontu, un ļaujat šī konta administratoram pārvaldīt jūsu Chrome profilu. Jūsu Chrome dati tiks neatgriezeniski saistīti ar šo kontu. Noņemot saiti no šī konta, tiks dzēsti lokālie Chrome dati."</string>
+<string name="policy_dialog_proceed">"Pieņemt un pierakst."</string>
+<string name="policy_dialog_cancel">"Atcelt"</string>
+<string name="wiping_profile_data_title">"Konta datu dzēšana"</string>
+<string name="wiping_profile_data_message">"Lūdzu, uzgaidiet..."</string>
+<string name="infobar_close">"Aizvērt"</string>
+<string name="translate_infobar_text">"This page is in ^1. Translate it to ^2?"</string>
+<string name="translate_infobar_change_languages">"Change languages"</string>
+<string name="translate_infobar_translation_done">"Translated to %1$s."</string>
+<string name="translate_infobar_translation_more_options">"More"</string>
+<string name="translate_infobar_translating">"Translating page to %1$s..."</string>
+<string name="translate_infobar_error">"Oops. This page could not be translated."</string>
+<string name="translate_always_text">"Always translate %1$s"</string>
+<string name="translate_never_translate_message_text">"Would you like Google Chrome to offer to translate %1$s pages from this site next time?"</string>
+<string name="translate_button">"Translate"</string>
+<string name="translate_nope">"Nope"</string>
+<string name="translate_show_original">"Show original"</string>
+<string name="translate_retry">"Try again"</string>
+<string name="translate_options_source_hint">"Page Language: ^1"</string>
+<string name="translate_options_target_hint">"Translation Language: ^1"</string>
+<string name="translate_button_done">"Done"</string>
+<string name="translate_never_translate_site">"Never translate this site"</string>
+<string name="translate_never_translate_language">"Never translate %1$s"</string>
+</resources>

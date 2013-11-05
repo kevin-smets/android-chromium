@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"取消"</string>
+<string name="http_post_warning">"您尋找的網頁使用了您輸入的資料。返回該頁會重複您剛才的行動。您確定要繼續嗎？"</string>
+<string name="http_post_warning_resend">"繼續"</string>
+<string name="firstrun_signed_in_title">"您現在已登入 Chrome。"</string>
+<string name="firstrun_signed_in_description">"系統正在將您的書籤、紀錄、開啟的分頁和其他設定同步傳送到您的 Google 帳戶。"</string>
+<string name="sad_tab_title">"糟糕！"</string>
+<string name="sad_tab_message">"顯示此網頁時發生問題，如要繼續執行，請重新載入或前往其他網頁。"</string>
+<string name="sad_tab_help_message">"如果您經常看到這個頁面，請參考這些說明：$1。"</string>
+<string name="sad_tab_help_link">"建議"</string>
+<string name="sad_tab_reload_label">"重新載入"</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Ghairi"</string>
+<string name="http_post_warning">"Ukurasa unaotafuta ulitumia maelezo uliyoyaingiza. Kurudi kwenye ukurasa huo huenda kukasababisha tendo lolote ulilofanya lirudiwe. Je, ungependa kuendelea?"</string>
+<string name="http_post_warning_resend">"Endelea"</string>
+<string name="firstrun_signed_in_title">"Sasa umeingia kwenye Chrome."</string>
+<string name="firstrun_signed_in_description">"Vichupo vyako vilivyo wazi, alamisho, historia, na zaidi vinasawazishwa na Akaunti yako ya Google."</string>
+<string name="sad_tab_title">"Lo!"</string>
+<string name="sad_tab_message">"Kuna tatizo ambalo limetokea wakati wa kuonyesha ukurasa huu wa wavuti. Kuendelea, upakie tena au uende kwenye ukurasa mwingine."</string>
+<string name="sad_tab_help_message">"Ikiwa unaliona tatizo hili mara kwa mara, jaribu $1 haya."</string>
+<string name="sad_tab_help_link">"mapendekezo"</string>
+<string name="sad_tab_reload_label">"Pakia upya"</string>
+</resources>

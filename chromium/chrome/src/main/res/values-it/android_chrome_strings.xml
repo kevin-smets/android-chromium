@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="leave_this_page">"Esci dalla pagina"</string>
+<string name="stay_on_this_page">"Rimani su questa pagina"</string>
+<string name="reload_this_page">"Ricarica questa pagina"</string>
+<string name="dont_reload_this_page">"Non ricaricare"</string>
+<string name="js_modal_dialog_confirm">"OK"</string>
+<string name="js_modal_dialog_cancel">"Annulla"</string>
+<string name="suppress_js_modal_dialogs">"Impedisci la creazione di altre finestre di dialogo in questa pagina"</string>
+<string name="accessibility_js_modal_dialog_prompt">"Messaggio"</string>
+<string name="certtitle">"Visualizzatore certificati"</string>
+<string name="sync_error_generic">"Errore di sincronizzazione"</string>
+<string name="sync_error_ga">"Aggiorna i dati di accesso."</string>
+<string name="sync_error_connection">"Impossibile collegarsi al server di sincronizzazione."</string>
+<string name="sync_error_domain">"Il servizio di sincronizzazione non è disponibile per il tuo dominio."</string>
+<string name="sync_error_service_unavailable">"Il servizio non è disponibile, riprova più tardi."</string>
+<string name="policy_dialog_title">"Conferma accesso"</string>
+<string name="policy_dialog_message">"Questo account è gestito da %1$s.
+
+Stai per eseguire l\'accesso con un account gestito e consentire al relativo amministratore di controllare il tuo profilo Chrome. I tuoi dati di Chrome verranno associati definitivamente a questo account. La disconnessione dall\'account comporterà l\'eliminazione dei dati di Chrome locali."</string>
+<string name="policy_dialog_proceed">"Accetta e accedi"</string>
+<string name="policy_dialog_cancel">"Annulla"</string>
+<string name="wiping_profile_data_title">"Cancellazione dati dell\'account"</string>
+<string name="wiping_profile_data_message">"Attendi..."</string>
+<string name="infobar_close">"Chiudi"</string>
+<string name="translate_infobar_text">"This page is in ^1. Translate it to ^2?"</string>
+<string name="translate_infobar_change_languages">"Change languages"</string>
+<string name="translate_infobar_translation_done">"Translated to %1$s."</string>
+<string name="translate_infobar_translation_more_options">"More"</string>
+<string name="translate_infobar_translating">"Translating page to %1$s..."</string>
+<string name="translate_infobar_error">"Oops. This page could not be translated."</string>
+<string name="translate_always_text">"Always translate %1$s"</string>
+<string name="translate_never_translate_message_text">"Would you like Google Chrome to offer to translate %1$s pages from this site next time?"</string>
+<string name="translate_button">"Translate"</string>
+<string name="translate_nope">"Nope"</string>
+<string name="translate_show_original">"Show original"</string>
+<string name="translate_retry">"Try again"</string>
+<string name="translate_options_source_hint">"Page Language: ^1"</string>
+<string name="translate_options_target_hint">"Translation Language: ^1"</string>
+<string name="translate_button_done">"Done"</string>
+<string name="translate_never_translate_site">"Never translate this site"</string>
+<string name="translate_never_translate_language">"Never translate %1$s"</string>
+</resources>

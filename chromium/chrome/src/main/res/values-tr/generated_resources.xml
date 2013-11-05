@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"İptal"</string>
+<string name="http_post_warning">"Aradığınız sayfa, girdiğiniz bilgileri kullandı. O sayfaya dönmeniz, gerçekleştirdiğiniz işlemlerin tekrarlanmasına yol açabilir. Devam etmek istiyor musunuz?"</string>
+<string name="http_post_warning_resend">"Devam Et"</string>
+<string name="firstrun_signed_in_title">"Şu anda Chrome\'da oturum açtınız."</string>
+<string name="firstrun_signed_in_description">"Açık sekmeleriniz, yer işaretleriniz, geçmişiniz ve diğer bilgileriniz Google Hesabınızla senkronize ediliyor."</string>
+<string name="sad_tab_title">"Hata!"</string>
+<string name="sad_tab_message">"Bu web sayfası görüntülenirken bir şeyler yanlış gitti. Devam etmek için sayfayı yeniden yükleyin veya başka bir sayfaya gidin."</string>
+<string name="sad_tab_help_message">"Bunu çok sık görüyorsanız, şunları deneyin: $1."</string>
+<string name="sad_tab_help_link">"öneriler"</string>
+<string name="sad_tab_reload_label">"Yeniden Yükle"</string>
+</resources>

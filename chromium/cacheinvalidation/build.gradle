@@ -1,0 +1,15 @@
+
+// cacheinvalidation/build.gradle
+
+// this is an android library that implements the
+// com.google.common.base
+// com.google.ipc.invalidation
+// com.google.protos.ips.invalidation APIs
+
+dependencies {
+  // pulled from project local .m2/repository
+  compile 'com.google.common:guava:1.0'
+  compile 'com.google:gcm:1.0.2'
+
+  compile project(':chromium:protobuf')
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Anulaţi"</string>
+<string name="http_post_warning">"Pagina pe care o căutați a utilizat informațiile pe care le-ați introdus. Întoarcerea la acea pagină ar putea duce la repetarea oricărei acțiuni pe care ați realizat-o. Doriți să continuați?"</string>
+<string name="http_post_warning_resend">"Continuați"</string>
+<string name="firstrun_signed_in_title">"Sunteți conectat(ă) la Chrome."</string>
+<string name="firstrun_signed_in_description">"Filele deschise, marcajele, istoricul și alte date sunt sincronizate cu Contul Google."</string>
+<string name="sad_tab_title">"Of, nu mai merge!"</string>
+<string name="sad_tab_message">"Ceva nu a mers bine la afișarea acestei pagini web. Pentru a continua, reîncărcați-o sau vizitați altă pagină."</string>
+<string name="sad_tab_help_message">"Dacă această pagină se afișează în mod frecvent, încercați $1."</string>
+<string name="sad_tab_help_link">"sugestii"</string>
+<string name="sad_tab_reload_label">"Reîncărcați"</string>
+</resources>

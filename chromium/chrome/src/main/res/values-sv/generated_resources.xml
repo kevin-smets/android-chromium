@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Avbryt"</string>
+<string name="http_post_warning">"Önskad sida använder information som du har angett. Om du återgår till sidan kan eventuella åtgärder på sidan upprepas. Vill du fortsätta?"</string>
+<string name="http_post_warning_resend">"Fortsätt"</string>
+<string name="firstrun_signed_in_title">"Du är nu inloggad i Chrome."</string>
+<string name="firstrun_signed_in_description">"Bland annat öppna flikar, bokmärken och historik synkroniseras med ditt Google-konto."</string>
+<string name="sad_tab_title">"Oj, ett fel har uppstått!"</string>
+<string name="sad_tab_message">"Ett fel uppstod när webbsidan skulle visas. Fortsätt genom att läsa in sidan på nytt eller besök en annan sida."</string>
+<string name="sad_tab_help_message">"Om du ser detta ofta provar du $1."</string>
+<string name="sad_tab_help_link">"förslag"</string>
+<string name="sad_tab_reload_label">"Hämta igen"</string>
+</resources>

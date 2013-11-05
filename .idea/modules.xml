@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-chromium.iml" filepath="$PROJECT_DIR$/android-chromium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/base/base.iml" filepath="$PROJECT_DIR$/chromium/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/cacheinvalidation/cacheinvalidation.iml" filepath="$PROJECT_DIR$/chromium/cacheinvalidation/cacheinvalidation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/chrome/chrome.iml" filepath="$PROJECT_DIR$/chromium/chrome/chrome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/components/components.iml" filepath="$PROJECT_DIR$/chromium/components/components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/content/content.iml" filepath="$PROJECT_DIR$/chromium/content/content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/content-shell/content-shell.iml" filepath="$PROJECT_DIR$/chromium/content-shell/content-shell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/eyesfree/eyesfree.iml" filepath="$PROJECT_DIR$/chromium/eyesfree/eyesfree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/media/media.iml" filepath="$PROJECT_DIR$/chromium/media/media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/net/net.iml" filepath="$PROJECT_DIR$/chromium/net/net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/protobuf/protobuf.iml" filepath="$PROJECT_DIR$/chromium/protobuf/protobuf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/sync/sync.iml" filepath="$PROJECT_DIR$/chromium/sync/sync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/testshell/testshell.iml" filepath="$PROJECT_DIR$/chromium/testshell/testshell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/ui/ui.iml" filepath="$PROJECT_DIR$/chromium/ui/ui.iml" />
+    </modules>
+  </component>
+</project>
+

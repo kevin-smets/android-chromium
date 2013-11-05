@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="leave_this_page">"इस पृष्ठ से जाएं"</string>
+<string name="stay_on_this_page">"इस पृष्ठ पर बनें रहें"</string>
+<string name="reload_this_page">"यह पृष्ठ पुन: लोड करें"</string>
+<string name="dont_reload_this_page">"पुनः लोड न करें"</string>
+<string name="js_modal_dialog_confirm">"ठीक"</string>
+<string name="js_modal_dialog_cancel">"रद्द करें"</string>
+<string name="suppress_js_modal_dialogs">"इस पृष्ठ को अतिरिक्त संवाद बनाने से रोकें"</string>
+<string name="accessibility_js_modal_dialog_prompt">"शीघ्र"</string>
+<string name="certtitle">"प्रमाणपत्र व्यूअर"</string>
+<string name="sync_error_generic">"समन्वयन त्रुटि"</string>
+<string name="sync_error_ga">"कृपया अपने प्रवेश विवरण अपडेट करें."</string>
+<string name="sync_error_connection">"समन्‍वयन सर्वर से कनेक्‍ट नहीं किया जा सका."</string>
+<string name="sync_error_domain">"आपके डोमेन के लिए समन्‍वयन उपलब्‍ध नहीं है."</string>
+<string name="sync_error_service_unavailable">"सेवा उपलब्ध नहीं है; बाद में पुन: प्रयास करें."</string>
+<string name="policy_dialog_title">"प्रवेश की पुष्टि करें"</string>
+<string name="policy_dialog_message">"यह खाता %1$s द्वारा प्रबंधित है.
+
+आप प्रबंधित खाते से प्रवेश कर रहे हैं और अपनी Chrome प्रोफ़ाइल को इसका व्यवस्थापक नियंत्रण दे रहे हैं. आपका Chrome डेटा इस खाते से स्थायी रूप से जुड़ जाएगा. इस खाते से डिस्कनेक्ट करने से स्थानीय Chrome डेटा हट जाएगा."</string>
+<string name="policy_dialog_proceed">"स्वीकार करें और प्रवेश करें"</string>
+<string name="policy_dialog_cancel">"रद्द करें"</string>
+<string name="wiping_profile_data_title">"खाते का डेटा साफ़ हो रहा है"</string>
+<string name="wiping_profile_data_message">"कृपया प्रतीक्षा करें..."</string>
+<string name="infobar_close">"बंद करें"</string>
+<string name="translate_infobar_text">"This page is in ^1. Translate it to ^2?"</string>
+<string name="translate_infobar_change_languages">"Change languages"</string>
+<string name="translate_infobar_translation_done">"Translated to %1$s."</string>
+<string name="translate_infobar_translation_more_options">"More"</string>
+<string name="translate_infobar_translating">"Translating page to %1$s..."</string>
+<string name="translate_infobar_error">"Oops. This page could not be translated."</string>
+<string name="translate_always_text">"Always translate %1$s"</string>
+<string name="translate_never_translate_message_text">"Would you like Google Chrome to offer to translate %1$s pages from this site next time?"</string>
+<string name="translate_button">"Translate"</string>
+<string name="translate_nope">"Nope"</string>
+<string name="translate_show_original">"Show original"</string>
+<string name="translate_retry">"Try again"</string>
+<string name="translate_options_source_hint">"Page Language: ^1"</string>
+<string name="translate_options_target_hint">"Translation Language: ^1"</string>
+<string name="translate_button_done">"Done"</string>
+<string name="translate_never_translate_site">"Never translate this site"</string>
+<string name="translate_never_translate_language">"Never translate %1$s"</string>
+</resources>

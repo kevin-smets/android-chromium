@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Annuler"</string>
+<string name="http_post_warning">"La page que vous recherchez a utilisé des informations que vous avez envoyées. Si vous revenez sur cette page, chaque action précédemment effectuée sera répétée. Souhaitez-vous continuer ?"</string>
+<string name="http_post_warning_resend">"Continuer"</string>
+<string name="firstrun_signed_in_title">"Vous êtes désormais connecté à Chrome."</string>
+<string name="firstrun_signed_in_description">"Vos onglets ouverts, vos favoris, votre historique et d\'autres éléments sont en cours de synchronisation avec votre compte Google."</string>
+<string name="sad_tab_title">"Aie aie aie"</string>
+<string name="sad_tab_message">"Une erreur s\'est produite lors de l\'affichage de cette page Web. Pour continuer, actualisez cette page ou ouvrez-en une autre."</string>
+<string name="sad_tab_help_message">"Si ce message s\'affiche régulièrement, essayez ces $1."</string>
+<string name="sad_tab_help_link">"suggestions"</string>
+<string name="sad_tab_reload_label">"Actualiser"</string>
+</resources>

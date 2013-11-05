@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"Отказ"</string>
+<string name="http_post_warning">"Страницата, която търсите, използва въведената от вас информация. Ако се върнете на тази страница, действията, които вече сте изпълнили, може да бъдат повторени. Искате ли да продължите?"</string>
+<string name="http_post_warning_resend">"Напред"</string>
+<string name="firstrun_signed_in_title">"Вече влязохте в Chrome."</string>
+<string name="firstrun_signed_in_description">"Вашите отворени раздели, отметки, история и др. се синхронизират с профила ви в Google."</string>
+<string name="sad_tab_title">"Ужас!"</string>
+<string name="sad_tab_message">"Възникна проблем при показването на тази уеб страница. За да продължите, презаредете или отворете друга страница."</string>
+<string name="sad_tab_help_message">"Ако виждате това често, опитайте $1."</string>
+<string name="sad_tab_help_link">"предложения"</string>
+<string name="sad_tab_reload_label">"Повторно зареждане"</string>
+</resources>

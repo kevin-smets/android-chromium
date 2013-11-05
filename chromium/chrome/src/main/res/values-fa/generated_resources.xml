@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"لغو"</string>
+<string name="http_post_warning">"صفحه‌ای که جستجو می‌کنید از اطلاعاتی استفاده می‌کند که شما وارد کرده‌اید. بازگشت به آن صفحه ممکن است باعث شود اقدامی را که قبلاً انجام دادید دوباره تکرار کنید. آیا می‌خواهید ادامه دهید؟"</string>
+<string name="http_post_warning_resend">"ادامه"</string>
+<string name="firstrun_signed_in_title">"‏اکنون وارد سیستم Chrome شدید."</string>
+<string name="firstrun_signed_in_description">"‏‫برگه‌های باز، نشانک‌ها، سابقه و موارد دیگر با حساب Google شما همگام‌سازی می‌شوند."</string>
+<string name="sad_tab_title">"اوه، خراب شد!"</string>
+<string name="sad_tab_message">"هنگام نمایش این صفحهٔ وب مشکلی پیش آمده است. برای ادامه، بارگیری مجدد کرده یا به یک صفحه دیگر بروید."</string>
+<string name="sad_tab_help_message">"اگر مکرراً با این مشکل مواجه می‌شوید، $1 را امتحان کنید."</string>
+<string name="sad_tab_help_link">"پیشنهادات"</string>
+<string name="sad_tab_reload_label">"تازه سازی"</string>
+</resources>

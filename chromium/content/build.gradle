@@ -1,0 +1,13 @@
+
+// content/build.gradle
+
+// this is an android library project that implements the org.chromium.content APIs
+
+dependencies {
+  // pulled from project local .m2/repository
+  compile 'com.google.common:guava:1.0'
+
+  compile project(':chromium:ui')
+  compile project(':chromium:net')
+  compile project(':chromium:eyesfree')
+}

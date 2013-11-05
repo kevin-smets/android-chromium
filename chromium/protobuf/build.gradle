@@ -1,0 +1,8 @@
+
+// protobuf/build.gradle
+
+// third-pary Google Protobuf Java code => com.google.protobuf
+
+dependencies {
+
+}

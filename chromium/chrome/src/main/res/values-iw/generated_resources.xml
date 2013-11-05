@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="cancel">"ביטול"</string>
+<string name="http_post_warning">"הדף שאתה מחפש השתמש במידע שהזנת. החזרה לדף זה עלולה לגרום לכפילות בפעולות שביצעת. האם ברצונך להמשיך?"</string>
+<string name="http_post_warning_resend">"המשך"</string>
+<string name="firstrun_signed_in_title">"‏אתה מחובר כעת ל-Chrome."</string>
+<string name="firstrun_signed_in_description">"‏הכרטיסיות הפתוחות, הסימניות, ההיסטוריה ונתונים נוספים מסתנכרנים עם חשבון Google שלך."</string>
+<string name="sad_tab_title">"אוי, לא!"</string>
+<string name="sad_tab_message">"משהו השתבש בעת הצגת דף אינטרנט זה. כדי להמשיך, טען מחדש או עבור לדף אחר."</string>
+<string name="sad_tab_help_message">"אם אתה רואה זאת לעתים קרובות, נסה את ה$1 האלה."</string>
+<string name="sad_tab_help_link">"הצעות"</string>
+<string name="sad_tab_reload_label">"טען שוב"</string>
+</resources>
