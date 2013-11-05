@@ -1,0 +1,31 @@
+# apple garbage
+.DS_Store
+
+.gradle/
+*.sublime-workspace
+
+# built application files
+*.apk
+*.ap_
+
+# .idea/ files that should not be committed
+.idea/workspace.xml
+.idea/tasks.xml
+# these can't be committed b/c they contain hard-coded
+# paths to the jar files in user's ~/.gradle folder
+.idea/libraries/
+.idea/libraries/*.xml
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
