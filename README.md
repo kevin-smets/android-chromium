@@ -54,6 +54,13 @@ These versions may be outdated.  You need to cross-reference the versions found 
 
 ### Build / Install
 
+Make a copy of `local.properties.sample` and edit it to point to the folder where your SDK lives
+
+```sh
+$ cp local.properties.sample local.properties
+$ vi local.properties
+```
+
 Run `gradlew build` (Mac / Linux) or `gradlew.bat build` (Windows)
 
 Artifacts are found under `${projectDir}/build/apk`.  Note that only `content-shell` and `testshell` will build an apk.  The rest are defined as library projects.
