@@ -4,6 +4,7 @@
 
 package org.chromium.content.app;
 
+import android.text.TextUtils;
 import android.util.Log;
 
 import org.chromium.base.JNINamespace;
@@ -42,6 +43,7 @@ public class LibraryLoader {
     // library_loader_hooks.cc).
     private static boolean sInitialized = false;
 
+    // List of libraries to load
     private static String[] libraries;
 
     // TODO(cjhopman): Remove this once it's unused.
@@ -50,7 +52,7 @@ public class LibraryLoader {
      */
     @Deprecated
     public static void setLibraryToLoad(String...libs) {
-        libraries = libs;
+      libraries = libs;
     }
 
     /**
@@ -132,9 +134,9 @@ public class LibraryLoader {
                     Linker.finishLibraryLoad();
                 long stopTime = System.currentTimeMillis();
                 Log.i(TAG, String.format("Time to load native libraries: %d ms (timestamps %d-%d)",
-                        stopTime - startTime,
-                        startTime % 10000,
-                        stopTime % 10000));
+                                         stopTime - startTime,
+                                         startTime % 10000,
+                                         stopTime % 10000));
                 sLoaded = true;
             }
         } catch (UnsatisfiedLinkError e) {
@@ -162,8 +164,8 @@ public class LibraryLoader {
         TraceEvent.setEnabledToMatchNative();
         // Record histogram for the content linker.
         if (Linker.isUsed())
-            nativeRecordContentAndroidLinkerHistogram(Linker.loadAtFixedAddressFailed(),
-                    SysUtils.isLowEndDevice());
+          nativeRecordContentAndroidLinkerHistogram(Linker.loadAtFixedAddressFailed(),
+                                                    SysUtils.isLowEndDevice());
     }
 
     // This is the only method that is registered during System.loadLibrary. We then call it
@@ -179,6 +181,6 @@ public class LibraryLoader {
     // i.e. whether the library failed to be loaded at a fixed address, and
     // whether the device is 'low-memory'.
     private static native void nativeRecordContentAndroidLinkerHistogram(
-            boolean loadedAtFixedAddressFailed,
-            boolean isLowMemoryDevice);
+         boolean loadedAtFixedAddressFailed,
+         boolean isLowMemoryDevice);
 }

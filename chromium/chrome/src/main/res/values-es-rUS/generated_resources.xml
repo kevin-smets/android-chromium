@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Si este mensaje aparece con frecuencia, haz clic aquí: $1."</string>
 <string name="sad_tab_help_link">"sugerencias"</string>
 <string name="sad_tab_reload_label">"Cargar de nuevo"</string>
+<string name="options_startup_pages_placeholder">"Ingresar URL..."</string>
 </resources>

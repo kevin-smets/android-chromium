@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"यदि आपको यह बार-बार दिखाई दे रहा हो, तो इन $1 को आज़माएं."</string>
 <string name="sad_tab_help_link">"सुझाव"</string>
 <string name="sad_tab_reload_label">"पुन: लोड करें"</string>
+<string name="options_startup_pages_placeholder">"URL दर्ज करें..."</string>
 </resources>

@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"이 메시지가 자주 표시된다면 다음을 시도해 보세요. $1"</string>
 <string name="sad_tab_help_link">"제안사항"</string>
 <string name="sad_tab_reload_label">"새로고침"</string>
+<string name="options_startup_pages_placeholder">"URL 입력..."</string>
 </resources>

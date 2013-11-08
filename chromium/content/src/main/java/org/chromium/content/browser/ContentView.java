@@ -128,7 +128,7 @@ public class ContentView extends FrameLayout
 
     @Override
     public boolean isReadyForSnapshot() {
-        return !isCrashed() && isReady();
+        return isReady();
     }
 
     @Override
@@ -274,13 +274,6 @@ public class ContentView extends FrameLayout
      */
     public void goForward() {
         mContentViewCore.goForward();
-    }
-
-    /**
-     * Reload the current page.
-     */
-    public void reload() {
-        mContentViewCore.reload();
     }
 
     /**
@@ -495,6 +488,7 @@ public class ContentView extends FrameLayout
         MotionEvent offset = createOffsetMotionEvent(event);
         boolean consumed = mContentViewCore.onHoverEvent(offset);
         offset.recycle();
+        super.onHoverEvent(event);
         return consumed;
     }
 
@@ -658,13 +652,6 @@ public class ContentView extends FrameLayout
      */
     public void setUseDesktopUserAgent(boolean override, boolean reloadOnChange) {
         mContentViewCore.setUseDesktopUserAgent(override, reloadOnChange);
-    }
-
-    /**
-     * @return Whether the native ContentView has crashed.
-     */
-    public boolean isCrashed() {
-        return mContentViewCore.isCrashed();
     }
 
     /**

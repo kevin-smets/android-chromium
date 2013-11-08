@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"ይህንን በተደጋጋሚነት የሚያዩ ከሆኑ $1ን ይሞክሩ።"</string>
 <string name="sad_tab_help_link">"የቀረቡ የጥቆማ አስተያየቶች"</string>
 <string name="sad_tab_reload_label">"ዳግም ጫን"</string>
+<string name="options_startup_pages_placeholder">"ዩ አር ኤል ያስገቡ..."</string>
 </resources>

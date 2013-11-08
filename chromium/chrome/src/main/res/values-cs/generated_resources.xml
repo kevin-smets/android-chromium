@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Pokud se vám tato stránka zobrazuje často, zkuste využít tyto $1."</string>
 <string name="sad_tab_help_link">"návrhy"</string>
 <string name="sad_tab_reload_label">"Načíst znovu"</string>
+<string name="options_startup_pages_placeholder">"Zadat adresu URL..."</string>
 </resources>

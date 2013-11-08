@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"إذا كنت تشاهد هذا بكثرة، فجرّب $1."</string>
 <string name="sad_tab_help_link">"اقتراحات"</string>
 <string name="sad_tab_reload_label">"إعادة تحميل"</string>
+<string name="options_startup_pages_placeholder">"‏إدخال عنوان URL..."</string>
 </resources>

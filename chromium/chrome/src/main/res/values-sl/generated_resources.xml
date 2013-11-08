@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Če se to pogosto pokaže, poskusite $1."</string>
 <string name="sad_tab_help_link">"predlogi"</string>
 <string name="sad_tab_reload_label">"Ponovno naloži"</string>
+<string name="options_startup_pages_placeholder">"Vnesite URL .."</string>
 </resources>

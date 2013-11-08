@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Om du ser detta ofta provar du $1."</string>
 <string name="sad_tab_help_link">"förslag"</string>
 <string name="sad_tab_reload_label">"Hämta igen"</string>
+<string name="options_startup_pages_placeholder">"Ange webbadress ..."</string>
 </resources>

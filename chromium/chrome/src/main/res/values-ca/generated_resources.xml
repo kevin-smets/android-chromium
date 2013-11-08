@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Si aquest missatge apareix sovint, proveu aquests $1."</string>
 <string name="sad_tab_help_link">"suggeriments"</string>
 <string name="sad_tab_reload_label">"Torna a carregar"</string>
+<string name="options_startup_pages_placeholder">"Introduïu l\'URL..."</string>
 </resources>

@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Ikiwa unaliona tatizo hili mara kwa mara, jaribu $1 haya."</string>
 <string name="sad_tab_help_link">"mapendekezo"</string>
 <string name="sad_tab_reload_label">"Pakia upya"</string>
+<string name="options_startup_pages_placeholder">"Ingiza URL..."</string>
 </resources>

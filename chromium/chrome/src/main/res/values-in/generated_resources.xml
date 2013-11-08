@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Jika Anda sering melihatnya, coba $1."</string>
 <string name="sad_tab_help_link">"saran"</string>
 <string name="sad_tab_reload_label">"Muat ulang"</string>
+<string name="options_startup_pages_placeholder">"Masukkan URL..."</string>
 </resources>

@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Kung madalas mo itong nakikita, subukan ang mga ito $1."</string>
 <string name="sad_tab_help_link">"mga suhestiyon"</string>
 <string name="sad_tab_reload_label">"Muling kargahan"</string>
+<string name="options_startup_pages_placeholder">"Ilagay ang URL..."</string>
 </resources>

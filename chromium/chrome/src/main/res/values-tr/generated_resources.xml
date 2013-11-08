@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Bunu çok sık görüyorsanız, şunları deneyin: $1."</string>
 <string name="sad_tab_help_link">"öneriler"</string>
 <string name="sad_tab_reload_label">"Yeniden Yükle"</string>
+<string name="options_startup_pages_placeholder">"URL\'yi girin..."</string>
 </resources>

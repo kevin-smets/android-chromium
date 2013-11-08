@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Si ce message s\'affiche régulièrement, essayez ces $1."</string>
 <string name="sad_tab_help_link">"suggestions"</string>
 <string name="sad_tab_reload_label">"Actualiser"</string>
+<string name="options_startup_pages_placeholder">"Saisissez l\'URL…"</string>
 </resources>

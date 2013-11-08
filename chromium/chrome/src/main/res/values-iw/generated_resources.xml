@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"אם אתה רואה זאת לעתים קרובות, נסה את ה$1 האלה."</string>
 <string name="sad_tab_help_link">"הצעות"</string>
 <string name="sad_tab_reload_label">"טען שוב"</string>
+<string name="options_startup_pages_placeholder">"הזן כתובת אתר..."</string>
 </resources>

@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"หากคุณเห็นข้อความนี้บ่อยๆ ให้ลองไปที่ $1"</string>
 <string name="sad_tab_help_link">"คำแนะนำ"</string>
 <string name="sad_tab_reload_label">"โหลดใหม่"</string>
+<string name="options_startup_pages_placeholder">"ป้อน URL..."</string>
 </resources>

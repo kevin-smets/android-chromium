@@ -5,14 +5,12 @@
 package org.chromium.chrome.browser;
 
 import android.app.Activity;
-import android.app.Dialog;
 import android.content.Context;
 import android.graphics.Color;
 import android.view.View;
 
 import org.chromium.base.CalledByNative;
 import org.chromium.base.ObserverList;
-import org.chromium.chrome.browser.RepostFormWarningDialog;
 import org.chromium.chrome.browser.infobar.AutoLoginProcessor;
 import org.chromium.chrome.browser.infobar.InfoBarContainer;
 import org.chromium.chrome.browser.profiles.Profile;
@@ -72,8 +70,11 @@ public abstract class TabBase implements NavigationClient {
     /** The {@link ContentView} showing the current page or {@code null} if the tab is frozen. */
     private ContentView mContentView;
 
-    /** InfoBar container to show infobars for this tab */
+    /** InfoBar container to show InfoBars for this tab. */
     private InfoBarContainer mInfoBarContainer;
+
+    /** The sync id of the TabBase if session sync is enabled. */
+    private int mSyncId;
 
     /**
      * The {@link ContentViewCore} for the current page, provided for convenience. This always
@@ -327,7 +328,15 @@ public abstract class TabBase implements NavigationClient {
      */
     public void reload() {
         // TODO(dtrainor): Should we try to rebuild the ContentView if it's frozen?
-        if (mContentViewCore != null) mContentViewCore.reload();
+        if (mContentViewCore != null) mContentViewCore.reload(true);
+    }
+
+    /**
+     * Reloads the current page content if it is a {@link ContentView}.
+     * This version ignores the cache and reloads from the network.
+     */
+    public void reloadIgnoringCache() {
+        if (mContentViewCore != null) mContentViewCore.reloadIgnoringCache(true);
     }
 
     /** Stop the current navigation. */
@@ -432,6 +441,22 @@ public abstract class TabBase implements NavigationClient {
     public int getSecurityLevel() {
         if (mNativeTabAndroid == 0) return ToolbarModelSecurityLevel.NONE;
         return nativeGetSecurityLevel(mNativeTabAndroid);
+    }
+
+    /**
+     * @return The sync id of the tab if session sync is enabled, {@code 0} otherwise.
+     */
+    @CalledByNative
+    protected int getSyncId() {
+        return mSyncId;
+    }
+
+    /**
+     * @param syncId The sync id of the tab if session sync is enabled.
+     */
+    @CalledByNative
+    protected void setSyncId(int syncId) {
+        mSyncId = syncId;
     }
 
     /**

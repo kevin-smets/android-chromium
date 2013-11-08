@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Dacă această pagină se afișează în mod frecvent, încercați $1."</string>
 <string name="sad_tab_help_link">"sugestii"</string>
 <string name="sad_tab_reload_label">"Reîncărcați"</string>
+<string name="options_startup_pages_placeholder">"Introduceți adresa URL..."</string>
 </resources>

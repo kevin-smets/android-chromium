@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Nếu bạn thường xuyên thấy thông báo này, hãy thử các $1 sau."</string>
 <string name="sad_tab_help_link">"đề xuất"</string>
 <string name="sad_tab_reload_label">"Tải lại"</string>
+<string name="options_startup_pages_placeholder">"Nhập URL..."</string>
 </resources>

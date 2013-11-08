@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Ja šo redzat bieži, izmēģiniet šos $1."</string>
 <string name="sad_tab_help_link">"ieteikumus"</string>
 <string name="sad_tab_reload_label">"Pārlādēt"</string>
+<string name="options_startup_pages_placeholder">"Ievadīt URL..."</string>
 </resources>

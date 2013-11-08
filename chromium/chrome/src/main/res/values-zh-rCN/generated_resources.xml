@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"如果您频繁遇到此问题，请尝试这些$1。"</string>
 <string name="sad_tab_help_link">"建议"</string>
 <string name="sad_tab_reload_label">"重新加载"</string>
+<string name="options_startup_pages_placeholder">"输入网址..."</string>
 </resources>

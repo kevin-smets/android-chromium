@@ -188,8 +188,8 @@ public class ContentViewCore
     }
 
     /**
-     * An interface that allows the embedder to be notified when the pinch gesture starts and
-     * stops.
+     * An interface that allows the embedder to be notified of events and state changes related to
+     * gesture processing.
      */
     public interface GestureStateListener {
         /**
@@ -216,6 +216,14 @@ public class ContentViewCore
          * Called when a fling event was not handled by the renderer.
          */
         void onUnhandledFlingStartEvent();
+
+        /**
+         * Called to indicate that a scroll update gesture had been consumed by the page.
+         * This callback is called whenever any layer is scrolled (like a frame or div). It is
+         * not called when a JS touch handler consumes the event (preventDefault), it is not called
+         * for JS-initiated scrolling.
+         */
+        void onScrollUpdateGestureConsumed();
     }
 
     /**
@@ -360,9 +368,6 @@ public class ContentViewCore
 
     private boolean mAttachedToWindow = false;
 
-    // Pid of the renderer process backing this ContentViewCore.
-    private int mPid = 0;
-
     private ContentViewGestureHandler mContentViewGestureHandler;
     private GestureStateListener mGestureStateListener;
     private ZoomManager mZoomManager;
@@ -451,6 +456,18 @@ public class ContentViewCore
 
     private ViewAndroid mViewAndroid;
 
+    public static class UMAActionAfterDoubleTap {
+        public static final int NAVIGATE_BACK = 0;
+        public static final int NAVIGATE_STOP = 1;
+        public static final int NO_ACTION = 2;
+        public static final int COUNT = 3;
+    }
+
+    public static class UMASingleTapType {
+        public static final int DELAYED_TAP = 0;
+        public static final int UNDELAYED_TAP = 1;
+        public static final int COUNT = 2;
+    }
 
     /**
      * Constructs a new ContentViewCore. Embedders must call initialize() after constructing
@@ -766,7 +783,6 @@ public class ContentViewCore
             }
         };
 
-        mPid = nativeGetCurrentRenderProcessId(mNativeContentViewCore);
         sendOrientationChangeEvent();
     }
 
@@ -991,6 +1007,7 @@ public class ContentViewCore
      * Stops loading the current web contents.
      */
     public void stopLoading() {
+        reportActionAfterDoubleTapUMA(ContentViewCore.UMAActionAfterDoubleTap.NAVIGATE_STOP);
         if (mNativeContentViewCore != 0) nativeStopLoading(mNativeContentViewCore);
     }
 
@@ -1194,6 +1211,7 @@ public class ContentViewCore
      * Goes to the navigation entry before the current one.
      */
     public void goBack() {
+        reportActionAfterDoubleTapUMA(ContentViewCore.UMAActionAfterDoubleTap.NAVIGATE_BACK);
         if (mNativeContentViewCore != 0) nativeGoBack(mNativeContentViewCore);
     }
 
@@ -1221,9 +1239,21 @@ public class ContentViewCore
     /**
      * Reload the current page.
      */
-    public void reload() {
+    public void reload(boolean checkForRepost) {
         mAccessibilityInjector.addOrRemoveAccessibilityApisIfNecessary();
-        if (mNativeContentViewCore != 0) nativeReload(mNativeContentViewCore);
+        if (mNativeContentViewCore != 0) {
+            nativeReload(mNativeContentViewCore, checkForRepost);
+        }
+    }
+
+    /**
+     * Reload the current page, ignoring the contents of the cache.
+     */
+    public void reloadIgnoringCache(boolean checkForRepost) {
+        mAccessibilityInjector.addOrRemoveAccessibilityApisIfNecessary();
+        if (mNativeContentViewCore != 0) {
+            nativeReloadIgnoringCache(mNativeContentViewCore, checkForRepost);
+        }
     }
 
     /**
@@ -1307,6 +1337,18 @@ public class ContentViewCore
         }
     }
 
+    @SuppressWarnings("unused")
+    @CalledByNative
+    private void onScrollUpdateGestureConsumed() {
+        if (mGestureStateListener != null) {
+            mGestureStateListener.onScrollUpdateGestureConsumed();
+        }
+    }
+
+    private void reportActionAfterDoubleTapUMA(int type) {
+        mContentViewGestureHandler.reportActionAfterDoubleTapUMA(type);
+    }
+
     @Override
     public boolean sendGesture(int type, long timeMs, int x, int y, Bundle b) {
         if (offerGestureToEmbedder(type)) return false;
@@ -1317,8 +1359,8 @@ public class ContentViewCore
             case ContentViewGestureHandler.GESTURE_SHOW_PRESSED_STATE:
                 nativeShowPressState(mNativeContentViewCore, timeMs, x, y);
                 return true;
-            case ContentViewGestureHandler.GESTURE_SHOW_PRESS_CANCEL:
-                nativeShowPressCancel(mNativeContentViewCore, timeMs, x, y);
+            case ContentViewGestureHandler.GESTURE_TAP_CANCEL:
+                nativeTapCancel(mNativeContentViewCore, timeMs, x, y);
                 return true;
             case ContentViewGestureHandler.GESTURE_TAP_DOWN:
                 nativeTapDown(mNativeContentViewCore, timeMs, x, y);
@@ -1375,6 +1417,26 @@ public class ContentViewCore
             default:
                 return false;
         }
+    }
+
+    @Override
+    public void sendSingleTapUMA(int type) {
+        if (mNativeContentViewCore == 0) return;
+        nativeSendSingleTapUma(
+                mNativeContentViewCore,
+                type,
+                UMASingleTapType.COUNT);
+    }
+
+    @Override
+    public void sendActionAfterDoubleTapUMA(int type,
+            boolean clickDelayEnabled) {
+        if (mNativeContentViewCore == 0) return;
+        nativeSendActionAfterDoubleTapUma(
+                mNativeContentViewCore,
+                type,
+                clickDelayEnabled,
+                UMAActionAfterDoubleTap.COUNT);
     }
 
     @Override
@@ -1480,7 +1542,14 @@ public class ContentViewCore
 
     private void onRenderCoordinatesUpdated() {
         if (mContentViewGestureHandler == null) return;
-        mContentViewGestureHandler.updateHasFixedPageScale(mRenderCoordinates.hasFixedPageScale());
+
+        // We disable double tap zoom for pages that have a width=device-width
+        // or narrower viewport (indicating that this is a mobile-optimized or
+        // responsive web design, so text will be legible without zooming).
+        // We also disable it for pages that disallow the user from zooming in
+        // or out (even if they don't have a device-width or narrower viewport).
+        mContentViewGestureHandler.updateShouldDisableDoubleTap(
+                mRenderCoordinates.hasMobileViewport() || mRenderCoordinates.hasFixedPageScale());
     }
 
     private void hidePopupDialog() {
@@ -1511,13 +1580,13 @@ public class ContentViewCore
     public void onAttachedToWindow() {
         mAttachedToWindow = true;
         if (mNativeContentViewCore != 0) {
-            assert mPid == nativeGetCurrentRenderProcessId(mNativeContentViewCore);
-            ChildProcessLauncher.getBindingManager().bindAsHighPriority(mPid);
+            int pid = nativeGetCurrentRenderProcessId(mNativeContentViewCore);
+            ChildProcessLauncher.getBindingManager().bindAsHighPriority(pid);
             // Normally the initial binding is removed in onRenderProcessSwap(), but it is possible
             // to construct WebContents and spawn the renderer before passing it to ContentViewCore.
             // In this case there will be no onRenderProcessSwap() call and the initial binding will
             // be removed here.
-            ChildProcessLauncher.getBindingManager().removeInitialBinding(mPid);
+            ChildProcessLauncher.getBindingManager().removeInitialBinding(pid);
         }
         setAccessibilityState(mAccessibilityManager.isEnabled());
     }
@@ -1529,8 +1598,8 @@ public class ContentViewCore
     public void onDetachedFromWindow() {
         mAttachedToWindow = false;
         if (mNativeContentViewCore != 0) {
-            assert mPid == nativeGetCurrentRenderProcessId(mNativeContentViewCore);
-            ChildProcessLauncher.getBindingManager().unbindAsHighPriority(mPid);
+            int pid = nativeGetCurrentRenderProcessId(mNativeContentViewCore);
+            ChildProcessLauncher.getBindingManager().unbindAsHighPriority(pid);
         }
         setInjectedAccessibility(false);
         hidePopupDialog();
@@ -1936,27 +2005,6 @@ public class ContentViewCore
         }
     }
 
-    /**
-     * Called by native side when the corresponding renderer crashes. Note that if a renderer is
-     * shared between tabs, this might be called multiple times while the tab is crashed. This is
-     * because the tabs sharing a renderer also share RenderProcessHost. When one of those tabs
-     * reloads and a new renderer is created for the shared RenderProcessHost, all tabs are notified
-     * in onRenderProcessSwap(), not only the one that reloads. If this renderer dies, all the other
-     * dead tabs are notified again.
-     * @param alreadyCrashed true iff this tab is already in crashed state but the shared renderer
-     *                       resurrected and died again since the last time this was called.
-     */
-    @SuppressWarnings("unused")
-    @CalledByNative
-    private void onTabCrash(boolean alreadyCrashed) {
-        assert mPid != 0;
-        if (!alreadyCrashed) {
-            getContentViewClient().onRendererCrash(
-                    ChildProcessLauncher.getBindingManager().isOomProtected(mPid));
-        }
-        mPid = 0;
-    }
-
     private void handleTapOrPress(
             long timeMs, float xPix, float yPix, int isLongPressOrTap, boolean showPress) {
         if (mContainerView.isFocusable() && mContainerView.isFocusableInTouchMode()
@@ -2289,14 +2337,6 @@ public class ContentViewCore
         nativeClearSslPreferences(mNativeContentViewCore);
     }
 
-    /**
-     * @return Whether the native ContentView has crashed.
-     */
-    public boolean isCrashed() {
-        if (mNativeContentViewCore == 0) return false;
-        return nativeCrashed(mNativeContentViewCore);
-    }
-
     private boolean isSelectionHandleShowing() {
         return mSelectionHandleController != null && mSelectionHandleController.isShowing();
     }
@@ -2610,7 +2650,6 @@ public class ContentViewCore
     @SuppressWarnings("unused")
     @CalledByNative
     private void onRenderProcessSwap(int oldPid, int newPid) {
-        assert mPid == oldPid || mPid == newPid;
         if (mAttachedToWindow && oldPid != newPid) {
             ChildProcessLauncher.getBindingManager().unbindAsHighPriority(oldPid);
             ChildProcessLauncher.getBindingManager().bindAsHighPriority(newPid);
@@ -2619,7 +2658,6 @@ public class ContentViewCore
         // We want to remove the initial binding even if the ContentView is not attached, so that
         // renderers for ContentViews loading in background do not retain the high priority.
         ChildProcessLauncher.getBindingManager().removeInitialBinding(newPid);
-        mPid = newPid;
 
         attachImeAdapter();
     }
@@ -3201,9 +3239,6 @@ public class ContentViewCore
 
     private native boolean nativeIsIncognito(int nativeContentViewCoreImpl);
 
-    // Returns true if the native side crashed so that java side can draw a sad tab.
-    private native boolean nativeCrashed(int nativeContentViewCoreImpl);
-
     private native void nativeSetFocus(int nativeContentViewCoreImpl, boolean focused);
 
     private native void nativeSendOrientationChangeEvent(
@@ -3242,7 +3277,7 @@ public class ContentViewCore
     private native void nativeShowPressState(
             int nativeContentViewCoreImpl, long timeMs, float x, float y);
 
-    private native void nativeShowPressCancel(
+    private native void nativeTapCancel(
             int nativeContentViewCoreImpl, long timeMs, float x, float y);
 
     private native void nativeTapDown(
@@ -3282,7 +3317,9 @@ public class ContentViewCore
 
     private native void nativeStopLoading(int nativeContentViewCoreImpl);
 
-    private native void nativeReload(int nativeContentViewCoreImpl);
+    private native void nativeReload(int nativeContentViewCoreImpl, boolean checkForRepost);
+    private native void nativeReloadIgnoringCache(
+            int nativeContentViewCoreImpl, boolean checkForRepost);
 
     private native void nativeCancelPendingReload(int nativeContentViewCoreImpl);
 
@@ -3352,4 +3389,10 @@ public class ContentViewCore
 
     private native void nativeSetAccessibilityEnabled(
             int nativeContentViewCoreImpl, boolean enabled);
+
+    private native void nativeSendSingleTapUma(int nativeContentViewCoreImpl,
+            int type, int count);
+
+    private native void nativeSendActionAfterDoubleTapUma(int nativeContentViewCoreImpl,
+            int type, boolean hasDelay, int count);
 }

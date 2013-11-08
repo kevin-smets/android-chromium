@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Sollte Ihnen diese Meldung häufiger angezeigt werden, sehen Sie sich unsere $1 an."</string>
 <string name="sad_tab_help_link">"Vorschläge"</string>
 <string name="sad_tab_reload_label">"Neu laden"</string>
+<string name="options_startup_pages_placeholder">"URL eingeben..."</string>
 </resources>

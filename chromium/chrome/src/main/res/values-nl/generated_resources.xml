@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Als je deze melding vaker ziet, probeer je deze $1."</string>
 <string name="sad_tab_help_link">"suggesties"</string>
 <string name="sad_tab_reload_label">"Opnieuw laden"</string>
+<string name="options_startup_pages_placeholder">"URL invoeren..."</string>
 </resources>

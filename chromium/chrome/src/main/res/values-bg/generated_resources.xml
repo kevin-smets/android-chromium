@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Ако виждате това често, опитайте $1."</string>
 <string name="sad_tab_help_link">"предложения"</string>
 <string name="sad_tab_reload_label">"Повторно зареждане"</string>
+<string name="options_startup_pages_placeholder">"Въведете URL адрес..."</string>
 </resources>

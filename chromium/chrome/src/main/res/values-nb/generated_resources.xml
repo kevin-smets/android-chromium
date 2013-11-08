@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Hvis du ser denne meldingen ofte, kan du prøve disse $1."</string>
 <string name="sad_tab_help_link">"forslag"</string>
 <string name="sad_tab_reload_label">"Last inn på nytt"</string>
+<string name="options_startup_pages_placeholder">"Angi nettadresse"</string>
 </resources>

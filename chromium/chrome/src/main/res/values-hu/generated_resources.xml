@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Ha gyakran látja ezt, próbálja ki a következőt: $1."</string>
 <string name="sad_tab_help_link">"javaslatok"</string>
 <string name="sad_tab_reload_label">"Újratöltés"</string>
+<string name="options_startup_pages_placeholder">"URL megadása..."</string>
 </resources>

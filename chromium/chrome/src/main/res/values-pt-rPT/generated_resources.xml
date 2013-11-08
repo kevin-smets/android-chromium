@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Se vê isto com frequência, experimente $1."</string>
 <string name="sad_tab_help_link">"sugestões"</string>
 <string name="sad_tab_reload_label">"Recarregar"</string>
+<string name="options_startup_pages_placeholder">"Introduzir URL..."</string>
 </resources>

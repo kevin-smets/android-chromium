@@ -10,4 +10,5 @@
 <string name="sad_tab_help_message">"Αν αυτό το μήνυμα εμφανίζεται συχνά, μπορείτε να βρείτε βοήθεια εδώ $1."</string>
 <string name="sad_tab_help_link">"προτάσεις"</string>
 <string name="sad_tab_reload_label">"Επαναφόρτωση"</string>
+<string name="options_startup_pages_placeholder">"Εισαγωγή διεύθυνσης URL:"</string>
 </resources>
