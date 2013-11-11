@@ -58,6 +58,9 @@ Details on how to build below.
 ### Asset and Resource URLs
 Note: `android_webview` supports Android asset/res urls like `file:///android_asset` and `file:///android_res` but `content-shell` and `testshell` do not.  `android-webview` includs a simple file in `assets/asset_file.html` that you can load when you launch the app.  Just put in the url: `file:///android_asset/asset_file.html` and it will display as expected.  For `content-shell`/`testshell`, you can easily unzip or copy web resources from the assets folder to the app's data folder, and then load the url from an absolute file path, e.g. `file:///data/data/{package-name}/files/index.html`.  Or you can see how it is implemented in `android-webview` and port it over to the other projects.
 
+### JavaScript Bridge
+All three projects provide APIs that allow you to add JavaScript objects that can bridge over to Java and vice-versa.  You can easily build your home-grown [Cordova](https://cordova.apache.org/) fairly painlessly.  One limitation I have found is that you __cannot__ pass a JavaScript callback `Function` into Java.  For asynchronous execution into Java from JavaScript, a simple workaround is to have Java return a unique identifier immediately.  The JavaScript side can store a reference to any callbacks with that identifier.  When Java asynchronously calls back with the result, pass the identifier, and JavaScript can use it to invoke the reference to the callback(s).
+
 ## What Do I Do With This
 
 ### Pre-requisites
