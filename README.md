@@ -9,6 +9,7 @@ Build Chromium `Content Shell`, `Test Shell` or `Android WebView` for Android.
 * [Difference Between This & ChromeView](https://github.com/davisford/android-chromium#what-is-the-difference-between-this--chromeview)
 * [Targets](https://github.com/davisford/android-chromium#targets)
   * [Asset and Resource URLs](https://github.com/davisford/android-chromium#asset-and-resource-urls)
+  * [JavaScript Bridge](https://github.com/davisford/android-chromium#javascript-bridge)
 * [What Do I Do With This](https://github.com/davisford/android-chromium#what-do-i-do-with-this)
 * [Artifacts: Assets & Libraries](https://github.com/davisford/android-chromium#artifacts-assets--libraries)
 * [Updating Chromium](https://github.com/davisford/android-chromium#updating-chromium)
