@@ -7,6 +7,8 @@ Build Chromium `Content Shell`, `Test Shell` or `Android WebView` for Android.
 * [Introduction](https://github.com/davisford/android-chromium#introduction)
 * [The Why](https://github.com/davisford/android-chromium#why)
 * [Difference Between This & ChromeView](https://github.com/davisford/android-chromium#what-is-the-difference-between-this--chromeview)
+* [Targets](https://github.com/davisford/android-chromium#targets)
+  * [Asset and Resource URLs](https://github.com/davisford/android-chromium#asset-and-resource-urls)
 * [What Do I Do With This](https://github.com/davisford/android-chromium#what-do-i-do-with-this)
 * [Artifacts: Assets & Libraries](https://github.com/davisford/android-chromium#artifacts-assets--libraries)
 * [Updating Chromium](https://github.com/davisford/android-chromium#updating-chromium)
@@ -43,12 +45,18 @@ Later, I realized that the Chromium TestShell was another build artifact that in
 
 Finally, after Google announced support from Chromium in Android WebView, it seems like the `AndroidWebView` apk target out of the Chromium source tree was ready to use, so I added that as well.
 
+I also re-factored the whole thing to use Gradle with the [Android Gradle plugin](http://tools.android.com/tech-docs/new-build-system/user-guide).  It works happily with [Android Studio](https://developer.android.com/sdk/installing/studio.html).
+
+## Targets
 You can choose to build and install one or all of the following apk targets and use any of the as the base of your project:
 * Chromium `content-shell` - the core browser underpinnings with a very simple Android UI that you can tune
 * Chromium `testshell` - everything in `content-shell` but includes some Chrome features like sync, autofill, tab support (but you have to build your own UI for tabs currently), and a few other features
 * Chromium `android-webview` - implements the [WebView](xhttps://developer.android.com/reference/android/webkit/WebView.html) API with Chromium underneath.
 
-I also re-factored the whole thing to use Gradle with the [Android Gradle plugin](http://tools.android.com/tech-docs/new-build-system/user-guide).  It works happily with [Android Studio](https://developer.android.com/sdk/installing/studio.html).
+Details on how to build below.
+
+### Asset and Resource URLs
+Note: `android_webview` supports Android asset/res urls like `file:///android_asset` and `file:///android_res` but `content-shell` and `testshell` do not.  It isn't a herculean effort to work around it, however.  `android-webview` includs a simple file in `assets/asset_file.html` that you can load when you launch the app.  Just put in the url: `file:///android_asset/asset_file.html` and it will display as expected.
 
 ## What Do I Do With This
 
