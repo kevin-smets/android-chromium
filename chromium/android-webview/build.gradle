@@ -1,0 +1,15 @@
+
+// android-webview/build.gradle
+
+// this is an Android application that builds the Chromium AndroidWebview apk
+
+dependencies {
+  compile fileTree(dir: "${buildDir}/native/", include: "*.jar")
+  compile project(':chromium:content')
+  compile project(':chromium:components')
+  compile project(':chromium:media')
+}
+
+tasks.withType(Compile) {
+  compileTask -> compileTask.dependsOn(copyNativeLibsToJar)
+}

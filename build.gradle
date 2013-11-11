@@ -65,6 +65,7 @@ configure(subprojects.findAll { project ->
 // configure android apk projects
 configure(subprojects.findAll { project ->
   ['content-shell',
+   'android-webview',
    'testshell'].contains(project.name) }) {
   apply plugin: 'android'
   // the rest is boilerplate

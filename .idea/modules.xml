@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android-chromium.iml" filepath="$PROJECT_DIR$/android-chromium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/android-webview/android-webview.iml" filepath="$PROJECT_DIR$/chromium/android-webview/android-webview.iml" />
       <module fileurl="file://$PROJECT_DIR$/chromium/base/base.iml" filepath="$PROJECT_DIR$/chromium/base/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/chromium/cacheinvalidation/cacheinvalidation.iml" filepath="$PROJECT_DIR$/chromium/cacheinvalidation/cacheinvalidation.iml" />
       <module fileurl="file://$PROJECT_DIR$/chromium/chrome/chrome.iml" filepath="$PROJECT_DIR$/chromium/chrome/chrome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chromium/chromium.iml" filepath="$PROJECT_DIR$/chromium/chromium.iml" />
       <module fileurl="file://$PROJECT_DIR$/chromium/components/components.iml" filepath="$PROJECT_DIR$/chromium/components/components.iml" />
       <module fileurl="file://$PROJECT_DIR$/chromium/content/content.iml" filepath="$PROJECT_DIR$/chromium/content/content.iml" />
       <module fileurl="file://$PROJECT_DIR$/chromium/content-shell/content-shell.iml" filepath="$PROJECT_DIR$/chromium/content-shell/content-shell.iml" />

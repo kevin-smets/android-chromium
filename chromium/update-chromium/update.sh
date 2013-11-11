@@ -262,6 +262,34 @@ echo "FIXME: diff and hand-merge the tree under $PROJ/modified/ into $PROJ/src/"
 echo "FIXME: you also need to move all classes under src/main/java to package org.chromium.content_shell.*"
 
 #-------------------------------------------------------------------------------
+#  ANDROID-WEBVIEW
+#-------------------------------------------------------------------------------
+export PROJ=$BASE/android-webview
+
+rm -rf $PROJ/src/main/java/*
+rm -rf $PROJ/src/main/res/*
+
+# copy the native library
+scp $BUILD/out/Release/android_webview_apk/libs/armeabi-v7a/libstandalonelibwebviewchromium.so \
+                                                            $PROJ/libs/armeabi-v7a/
+
+# copy the pak files and other assets
+scp $BUILD/out/Release/android_webview_apk/assets/*         $PROJ/src/main/assets/
+scp $BUILD/out/Release/locales/en-US.pak                    $PROJ/src/main/assets/
+
+# copy the manifest file
+scp $BUILD/out/Release/android_webview_apk/AndroidManifest.xml \
+                                                            $PROJ/src/main/
+
+# copy the sources and resources
+scp -r $BUILD/android_webview/java/src/*                    $PROJ/src/main/java/
+scp -r $BUILD/android_webview/test/shell/src/*              $PROJ/src/main/java/
+scp -r $BUILD/out/Release/android_webview_apk/res/*         $PROJ/src/main/res/
+scp -r $BUILD/android_webview/test/shell/res/*              $PROJ/src/main/res/
+
+echo "FIXME: diff and hand-merge the tree under $PROJ/modified/ into $PROJ/src/"
+
+#-------------------------------------------------------------------------------
 #  GENERAL CLEANUP
 #-------------------------------------------------------------------------------
 

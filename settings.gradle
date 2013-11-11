@@ -10,5 +10,6 @@ include ':chromium:base',
   ':chromium:protobuf',
   ':chromium:sync',
   ':chromium:testshell',
-  ':chromium:ui'
+  ':chromium:ui',
+  ':chromium:android-webview'
 
