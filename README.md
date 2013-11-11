@@ -56,7 +56,7 @@ You can choose to build and install one or all of the following apk targets and 
 Details on how to build below.
 
 ### Asset and Resource URLs
-Note: `android_webview` supports Android asset/res urls like `file:///android_asset` and `file:///android_res` but `content-shell` and `testshell` do not.  It isn't a herculean effort to work around it, however.  `android-webview` includs a simple file in `assets/asset_file.html` that you can load when you launch the app.  Just put in the url: `file:///android_asset/asset_file.html` and it will display as expected.
+Note: `android_webview` supports Android asset/res urls like `file:///android_asset` and `file:///android_res` but `content-shell` and `testshell` do not.  `android-webview` includs a simple file in `assets/asset_file.html` that you can load when you launch the app.  Just put in the url: `file:///android_asset/asset_file.html` and it will display as expected.  For `content-shell`/`testshell`, you can easily unzip or copy web resources from the assets folder to the app's data folder, and then load the url from an absolute file path, e.g. `file:///data/data/{package-name}/files/index.html`.  Or you can see how it is implemented in `android-webview` and port it over to the other projects.
 
 ## What Do I Do With This
 
