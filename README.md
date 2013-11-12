@@ -31,7 +31,7 @@ This project was inspired by [pwnall's chromeview](https://github.com/pwnall/chr
 
 * Android WebView (pre-KitKat) does not have the same performance characteristics as Chromium (the latter is faster)
 * Android WebView lacks feature parity with Chromium.  The Chromium team moves fast, it is usually one of the first browsers to receive new W3C features, etc.
-* Android WebView is embedded and tied to the platform -- updating it therefore becomes problematic since you have to update the whole platform to update the browser
+* Android WebView is embedded and tied to the platform -- updating it therefore becomes problematic since you have to update the whole platform to update the browser; there are also [potential compatibility issues](https://groups.google.com/a/chromium.org/d/msg/chromium-dev/-4I1DE_bbZo/JSdOOAYa1AgJ), whereas building your own browser (e.g. `content-shell`) will snip most library dependencies and has a better chance of avoiding said problems.
 
 **NOTE**: Google recently announced that they will be using [Chromium for Android WebView in release 4.4 KitKat](http://blog.chromium.org/2013/11/introducing-chromium-powered-android.html).  While that is great news for web developers who want to build apps on the Android platform, there may still be valid reasons why you'd prefer to go down a path like this:
 
